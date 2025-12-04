@@ -18,14 +18,14 @@
   "content_scripts": [
     {
       "js": [
-        "assets/index.ts-loader-B5W4wO-3.js"
+        "assets/index.ts-loader-FJL_6adQ.js"
       ],
       "matches": [
         "http://*/*",
         "https://*/*"
       ],
       "css": [
-        "assets/index-BP3GEb2z.css"
+        "assets/index-s2gwZOrH.css"
       ]
     }
   ],
@@ -44,18 +44,12 @@
       ],
       "resources": [
         "assets/injected.js",
-        "assets/injected.js.map",
         "_locales/*/messages.json",
-        "assets/chunk--DVCTphW.js",
-        "assets/chunk--DVCTphW.js.map",
-        "assets/chunk-Ds9tf01o.js",
-        "assets/chunk-Ds9tf01o.js.map",
-        "assets/chunk-BAX9q0V5.js",
-        "assets/chunk-BAX9q0V5.js.map",
-        "assets/chunk-BD1GsdAo.js",
-        "assets/chunk-BD1GsdAo.js.map",
-        "assets/chunk-COyM46jY.js",
-        "assets/chunk-COyM46jY.js.map"
+        "assets/chunk-D3AK_sNQ.js",
+        "assets/chunk-CZRYylKx.js",
+        "assets/chunk-DwgIagi8.js",
+        "assets/chunk-Cpj98o6Y.js",
+        "assets/chunk-BHFMO2uW.js"
       ],
       "use_dynamic_url": false
     }
