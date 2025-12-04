@@ -1,0 +1,266 @@
+{
+  "popup_title": {
+    "message": "설정",
+    "description": "팝업 페이지 제목"
+  },
+  "popup_nativeLanguage_label": {
+    "message": "모국어:",
+    "description": "모국어 선택기 라벨"
+  },
+  "popup_interfaceLanguage_label": {
+    "message": "인터페이스 언어:",
+    "description": "인터페이스 언어 선택기 라벨"
+  },
+  "languages_zhCN": {
+    "message": "중국어 간체",
+    "description": "언어 이름: 중국어 간체"
+  },
+  "languages_zhTW": {
+    "message": "중국어 번체",
+    "description": "언어 이름: 중국어 번체"
+  },
+  "languages_en": {
+    "message": "영어",
+    "description": "언어 이름: 영어"
+  },
+  "languages_ja": {
+    "message": "일본어",
+    "description": "언어 이름: 일본어"
+  },
+  "languages_es": {
+    "message": "스페인어",
+    "description": "언어 이름: 스페인어"
+  },
+  "languages_fr": {
+    "message": "프랑스어",
+    "description": "언어 이름: 프랑스어"
+  },
+  "languages_de": {
+    "message": "독일어",
+    "description": "언어 이름: 독일어"
+  },
+  "languages_ko": {
+    "message": "한국어",
+    "description": "언어 이름: 한국어"
+  },
+  "sidebar_empty_noData": {
+    "message": "자막 데이터 없음",
+    "description": "자막이 없을 때 사이드바 빈 상태 메시지"
+  },
+  "sidebar_empty_enableSubtitle": {
+    "message": "동영상에서 자막을 활성화하세요",
+    "description": "빈 상태에서 자막 활성화 안내"
+  },
+  "contentScript_translating": {
+    "message": "⚠️ 번역 중...",
+    "description": "번역 진행 중 상태 메시지"
+  },
+  "tooltip_notIncluded": {
+    "message": "아직 포함되지 않음",
+    "description": "사전에서 항목을 찾을 수 없을 때 표시되는 메시지"
+  },
+  "tooltip_error_loadingDefinition": {
+    "message": "정의 로드 오류",
+    "description": "사전 검색 실패 시 오류 메시지"
+  },
+  "contentScript_noNativeContent": {
+    "message": "원문 콘텐츠 없음",
+    "description": "원본 자막 콘텐츠가 누락되었을 때 메시지"
+  },
+  "html_popup_title": {
+    "message": "Moki - 언어 학습 확장 프로그램",
+    "description": "팝업 페이지의 브라우저 탭 제목"
+  },
+  "tooltip_section_definition": {
+    "message": "정의",
+    "description": "툴팁의 정의 구분선 위 섹션 라벨"
+  },
+  "tooltip_section_phrases": {
+    "message": "구문",
+    "description": "툴팁의 구문 구분선 위 섹션 라벨"
+  },
+  "tooltip_section_sentenceTranslation": {
+    "message": "문장 번역",
+    "description": "툴팁의 문장 번역 구분선 위 섹션 라벨"
+  },
+  "auth_login_tab": {
+    "message": "로그인",
+    "description": "로그인 탭 라벨"
+  },
+  "auth_register_tab": {
+    "message": "가입",
+    "description": "가입 탭 라벨"
+  },
+  "auth_email_label": {
+    "message": "이메일",
+    "description": "이메일 필드 라벨"
+  },
+  "auth_password_label": {
+    "message": "비밀번호",
+    "description": "비밀번호 필드 라벨"
+  },
+  "auth_username_label": {
+    "message": "사용자 이름",
+    "description": "사용자 이름 필드 라벨"
+  },
+  "auth_confirmPassword_label": {
+    "message": "비밀번호 확인",
+    "description": "비밀번호 확인 필드 라벨"
+  },
+  "auth_forgotPassword": {
+    "message": "비밀번호를 잊으셨나요?",
+    "description": "비밀번호 찾기 링크 텍스트"
+  },
+  "auth_login_button": {
+    "message": "로그인",
+    "description": "로그인 버튼 텍스트"
+  },
+  "auth_register_button": {
+    "message": "가입",
+    "description": "가입 버튼 텍스트"
+  },
+  "auth_googleLogin": {
+    "message": "Google로 로그인",
+    "description": "Google 로그인 버튼 텍스트"
+  },
+  "auth_email_placeholder": {
+    "message": "이메일을 입력하세요",
+    "description": "이메일 필드 플레이스홀더"
+  },
+  "auth_password_placeholder": {
+    "message": "비밀번호를 입력하세요",
+    "description": "비밀번호 필드 플레이스홀더"
+  },
+  "auth_username_placeholder": {
+    "message": "사용자 이름을 입력하세요",
+    "description": "사용자 이름 필드 플레이스홀더"
+  },
+  "auth_passwordRequirements": {
+    "message": "최소 8자",
+    "description": "비밀번호 요구사항 텍스트"
+  },
+  "auth_passwordHint": {
+    "message": "8-12자",
+    "description": "자리 표시자의 비밀번호 길이 힌트"
+  },
+  "auth_or": {
+    "message": "또는",
+    "description": "로그인 옵션 사이의 구분 텍스트"
+  },
+  "loggedIn_loading": {
+    "message": "로딩 중...",
+    "description": "로그인된 팝업의 로딩 텍스트"
+  },
+  "loggedIn_testUser": {
+    "message": "테스트 사용자",
+    "description": "사용자 이름이 없을 때 대체 사용자 이름"
+  },
+  "loggedIn_myCollection": {
+    "message": "내 컬렉션",
+    "description": "내 컬렉션 메뉴 항목"
+  },
+  "loggedIn_browsingHistory": {
+    "message": "시청 기록",
+    "description": "시청 기록 메뉴 항목"
+  },
+  "loggedIn_settings": {
+    "message": "설정",
+    "description": "설정 메뉴 항목"
+  },
+  "loggedIn_logout": {
+    "message": "로그아웃",
+    "description": "로그아웃 메뉴 항목"
+  },
+  "settings_title": {
+    "message": "설정",
+    "description": "설정 페이지 제목"
+  },
+  "settings_nativeLanguage": {
+    "message": "모국어",
+    "description": "모국어 설정 레이블"
+  },
+  "settings_targetLanguage": {
+    "message": "목표 언어",
+    "description": "목표 언어 설정 레이블"
+  },
+  "settings_interfaceLanguage": {
+    "message": "인터페이스 언어",
+    "description": "인터페이스 언어 설정 레이블"
+  },
+  "settings_save": {
+    "message": "설정 저장",
+    "description": "설정 저장 버튼 텍스트"
+  },
+  "settings_saving": {
+    "message": "저장 중...",
+    "description": "설정 저장 중 상태 텍스트"
+  },
+  "settings_saved": {
+    "message": "저장됨",
+    "description": "설정 저장 성공 상태 텍스트"
+  },
+  "sidebar_auth_banner_text": {
+    "message": "로그인하여 모든 기능 사용",
+    "description": "사이드바 인증 배너 텍스트"
+  },
+  "sidebar_auth_login_button": {
+    "message": "로그인",
+    "description": "사이드바 로그인 버튼 텍스트"
+  },
+  "history_empty": {
+    "message": "검색 기록이 없습니다",
+    "description": "검색 기록 빈 상태 메시지"
+  },
+  "history_justNow": {
+    "message": "방금",
+    "description": "시간 형식: 방금"
+  },
+  "history_minutesAgo": {
+    "message": "$1분 전",
+    "description": "시간 형식: 분 전"
+  },
+  "history_hoursAgo": {
+    "message": "$1시간 전",
+    "description": "시간 형식: 시간 전"
+  },
+  "history_daysAgo": {
+    "message": "$1일 전",
+    "description": "시간 형식: 일 전"
+  },
+  "collection_empty": {
+    "message": "아직 컬렉션이 없습니다",
+    "description": "내 컬렉션 빈 상태 메시지"
+  },
+  "mokiControl_enableMoki": {
+    "message": "Moki 활성화",
+    "description": "MokiControl 메뉴의 활성화 토글 라벨"
+  },
+  "mokiControl_subtitle": {
+    "message": "자막",
+    "description": "MokiControl 메뉴의 자막 옵션 라벨"
+  },
+  "mokiControl_noSubtitle": {
+    "message": "사용 가능한 자막이 없습니다",
+    "description": "MokiControl 하위 메뉴에서 자막이 없을 때 메시지"
+  },
+  "mokiControl_tooltip_enable": {
+    "message": "Moki 자막 활성화",
+    "description": "MokiControl 버튼 활성화 툴팁"
+  },
+  "mokiControl_tooltip_disable": {
+    "message": "Moki 자막 비활성화",
+    "description": "MokiControl 버튼 비활성화 툴팁"
+  },
+  "mokiControl_tooltip_unavailable": {
+    "message": "이 동영상에는 자막이 없습니다",
+    "description": "MokiControl 버튼 사용 불가 시 툴팁"
+  },
+  "mokiControl_tooltip_loading": {
+    "message": "로딩 중...",
+    "description": "MokiControl 버튼 로딩 중 툴팁"
+  },
+  "mokiControl_videoLanguage": {
+    "message": "동영상 언어",
+    "description": "MokiControl 하위 메뉴의 동영상 원어 레이블"
+  }
+}

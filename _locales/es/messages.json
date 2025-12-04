@@ -1,0 +1,266 @@
+{
+  "popup_title": {
+    "message": "Configuración",
+    "description": "Título de la página emergente"
+  },
+  "popup_nativeLanguage_label": {
+    "message": "Idioma nativo:",
+    "description": "Etiqueta del selector de idioma nativo"
+  },
+  "popup_interfaceLanguage_label": {
+    "message": "Idioma de la interfaz:",
+    "description": "Etiqueta del selector de idioma de la interfaz"
+  },
+  "languages_zhCN": {
+    "message": "Chino simplificado",
+    "description": "Nombre del idioma: Chino simplificado"
+  },
+  "languages_zhTW": {
+    "message": "Chino tradicional",
+    "description": "Nombre del idioma: Chino tradicional"
+  },
+  "languages_en": {
+    "message": "Inglés",
+    "description": "Nombre del idioma: Inglés"
+  },
+  "languages_ja": {
+    "message": "Japonés",
+    "description": "Nombre del idioma: Japonés"
+  },
+  "languages_es": {
+    "message": "Español",
+    "description": "Nombre del idioma: Español"
+  },
+  "languages_fr": {
+    "message": "Francés",
+    "description": "Nombre del idioma: Francés"
+  },
+  "languages_de": {
+    "message": "Alemán",
+    "description": "Nombre del idioma: Alemán"
+  },
+  "languages_ko": {
+    "message": "Coreano",
+    "description": "Nombre del idioma: Coreano"
+  },
+  "sidebar_empty_noData": {
+    "message": "No hay datos de subtítulos",
+    "description": "Mensaje de estado vacío en la barra lateral cuando no hay subtítulos"
+  },
+  "sidebar_empty_enableSubtitle": {
+    "message": "Por favor, active los subtítulos en el vídeo",
+    "description": "Instrucción para activar subtítulos en el estado vacío"
+  },
+  "contentScript_translating": {
+    "message": "⚠️ Traduciendo...",
+    "description": "Mensaje de estado mostrado mientras la traducción está en curso"
+  },
+  "tooltip_notIncluded": {
+    "message": "Aún no incluido",
+    "description": "Mensaje mostrado cuando no se encuentra la entrada en el diccionario"
+  },
+  "tooltip_error_loadingDefinition": {
+    "message": "Error al cargar la definición",
+    "description": "Mensaje de error cuando falla la búsqueda en el diccionario"
+  },
+  "contentScript_noNativeContent": {
+    "message": "Sin contenido original",
+    "description": "Mensaje cuando falta el contenido del subtítulo original"
+  },
+  "html_popup_title": {
+    "message": "Moki - Extensión de aprendizaje de idiomas",
+    "description": "Título de la pestaña del navegador para la página emergente"
+  },
+  "tooltip_section_definition": {
+    "message": "Definición",
+    "description": "Etiqueta de sección sobre el divisor de definición en el tooltip"
+  },
+  "tooltip_section_phrases": {
+    "message": "Frases",
+    "description": "Etiqueta de sección sobre el divisor de frases en el tooltip"
+  },
+  "tooltip_section_sentenceTranslation": {
+    "message": "Traducción de Oración",
+    "description": "Etiqueta de sección sobre el divisor de traducción de oración en el tooltip"
+  },
+  "auth_login_tab": {
+    "message": "Iniciar sesión",
+    "description": "Etiqueta de pestaña de inicio de sesión"
+  },
+  "auth_register_tab": {
+    "message": "Registrarse",
+    "description": "Etiqueta de pestaña de registro"
+  },
+  "auth_email_label": {
+    "message": "Correo electrónico",
+    "description": "Etiqueta del campo de correo electrónico"
+  },
+  "auth_password_label": {
+    "message": "Contraseña",
+    "description": "Etiqueta del campo de contraseña"
+  },
+  "auth_username_label": {
+    "message": "Nombre de usuario",
+    "description": "Etiqueta del campo de nombre de usuario"
+  },
+  "auth_confirmPassword_label": {
+    "message": "Confirmar contraseña",
+    "description": "Etiqueta del campo de confirmación de contraseña"
+  },
+  "auth_forgotPassword": {
+    "message": "¿Olvidaste tu contraseña?",
+    "description": "Texto del enlace de contraseña olvidada"
+  },
+  "auth_login_button": {
+    "message": "Iniciar sesión",
+    "description": "Texto del botón de inicio de sesión"
+  },
+  "auth_register_button": {
+    "message": "Registrarse",
+    "description": "Texto del botón de registro"
+  },
+  "auth_googleLogin": {
+    "message": "Iniciar sesión con Google",
+    "description": "Texto del botón de inicio de sesión con Google"
+  },
+  "auth_email_placeholder": {
+    "message": "Ingresa correo electrónico",
+    "description": "Marcador de posición del campo de correo electrónico"
+  },
+  "auth_password_placeholder": {
+    "message": "Ingresa contraseña",
+    "description": "Marcador de posición del campo de contraseña"
+  },
+  "auth_username_placeholder": {
+    "message": "Ingresa nombre de usuario",
+    "description": "Marcador de posición del campo de nombre de usuario"
+  },
+  "auth_passwordRequirements": {
+    "message": "Mínimo 8 caracteres",
+    "description": "Texto de requisitos de contraseña"
+  },
+  "auth_passwordHint": {
+    "message": "8-12 caracteres",
+    "description": "Sugerencia de longitud de contraseña en marcador de posición"
+  },
+  "auth_or": {
+    "message": "o",
+    "description": "Texto divisor entre opciones de inicio de sesión"
+  },
+  "loggedIn_loading": {
+    "message": "Cargando...",
+    "description": "Texto de carga en ventana emergente de sesión iniciada"
+  },
+  "loggedIn_testUser": {
+    "message": "Usuario de prueba",
+    "description": "Nombre de usuario de respaldo cuando el usuario no tiene nombre"
+  },
+  "loggedIn_myCollection": {
+    "message": "Mi Colección",
+    "description": "Elemento de menú de mi colección"
+  },
+  "loggedIn_browsingHistory": {
+    "message": "Historial de navegación",
+    "description": "Elemento de menú de historial de navegación"
+  },
+  "loggedIn_settings": {
+    "message": "Configuración",
+    "description": "Elemento de menú de configuración"
+  },
+  "loggedIn_logout": {
+    "message": "Cerrar sesión",
+    "description": "Elemento de menú de cerrar sesión"
+  },
+  "settings_title": {
+    "message": "Configuración",
+    "description": "Título de la página de configuración"
+  },
+  "settings_nativeLanguage": {
+    "message": "Idioma nativo",
+    "description": "Etiqueta de configuración de idioma nativo"
+  },
+  "settings_targetLanguage": {
+    "message": "Idioma objetivo",
+    "description": "Etiqueta de configuración de idioma objetivo"
+  },
+  "settings_interfaceLanguage": {
+    "message": "Idioma de interfaz",
+    "description": "Etiqueta de configuración de idioma de interfaz"
+  },
+  "settings_save": {
+    "message": "Guardar configuración",
+    "description": "Texto del botón guardar configuración"
+  },
+  "settings_saving": {
+    "message": "Guardando...",
+    "description": "Texto de estado guardando configuración"
+  },
+  "settings_saved": {
+    "message": "Guardado",
+    "description": "Texto de estado configuración guardada"
+  },
+  "sidebar_auth_banner_text": {
+    "message": "Inicia sesión para usar todas las funciones",
+    "description": "Texto del banner de autenticación de la barra lateral"
+  },
+  "sidebar_auth_login_button": {
+    "message": "Iniciar sesión",
+    "description": "Texto del botón de inicio de sesión de la barra lateral"
+  },
+  "history_empty": {
+    "message": "Sin historial de navegación",
+    "description": "Mensaje de estado vacío en el historial de navegación"
+  },
+  "history_justNow": {
+    "message": "Ahora mismo",
+    "description": "Formato de tiempo: ahora mismo"
+  },
+  "history_minutesAgo": {
+    "message": "Hace $1 min",
+    "description": "Formato de tiempo: hace minutos"
+  },
+  "history_hoursAgo": {
+    "message": "Hace $1 h",
+    "description": "Formato de tiempo: hace horas"
+  },
+  "history_daysAgo": {
+    "message": "Hace $1 día(s)",
+    "description": "Formato de tiempo: hace días"
+  },
+  "collection_empty": {
+    "message": "Aún no hay colecciones",
+    "description": "Mensaje de estado vacío en mi colección"
+  },
+  "mokiControl_enableMoki": {
+    "message": "Activar Moki",
+    "description": "Etiqueta del interruptor de activación en el menú MokiControl"
+  },
+  "mokiControl_subtitle": {
+    "message": "Subtítulos",
+    "description": "Etiqueta de la opción de subtítulos en el menú MokiControl"
+  },
+  "mokiControl_noSubtitle": {
+    "message": "No hay subtítulos disponibles",
+    "description": "Mensaje cuando no hay subtítulos disponibles en el submenú MokiControl"
+  },
+  "mokiControl_tooltip_enable": {
+    "message": "Activar subtítulos de Moki",
+    "description": "Tooltip cuando el botón MokiControl puede activarse"
+  },
+  "mokiControl_tooltip_disable": {
+    "message": "Desactivar subtítulos de Moki",
+    "description": "Tooltip cuando el botón MokiControl puede desactivarse"
+  },
+  "mokiControl_tooltip_unavailable": {
+    "message": "No hay subtítulos disponibles para este video",
+    "description": "Tooltip cuando el botón MokiControl no está disponible"
+  },
+  "mokiControl_tooltip_loading": {
+    "message": "Cargando...",
+    "description": "Tooltip cuando el botón MokiControl está cargando"
+  },
+  "mokiControl_videoLanguage": {
+    "message": "Idioma del video",
+    "description": "Etiqueta para el idioma nativo del video en el submenú de MokiControl"
+  }
+}

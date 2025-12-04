@@ -1,0 +1,266 @@
+{
+  "popup_title": {
+    "message": "設定",
+    "description": "ポップアップページのタイトル"
+  },
+  "popup_nativeLanguage_label": {
+    "message": "母国語：",
+    "description": "母国語セレクターのラベル"
+  },
+  "popup_interfaceLanguage_label": {
+    "message": "インターフェース言語：",
+    "description": "インターフェース言語セレクターのラベル"
+  },
+  "languages_zhCN": {
+    "message": "簡体字中国語",
+    "description": "言語名：簡体字中国語"
+  },
+  "languages_zhTW": {
+    "message": "繁体字中国語",
+    "description": "言語名：繁体字中国語"
+  },
+  "languages_en": {
+    "message": "英語",
+    "description": "言語名：英語"
+  },
+  "languages_ja": {
+    "message": "日本語",
+    "description": "言語名：日本語"
+  },
+  "languages_es": {
+    "message": "スペイン語",
+    "description": "言語名：スペイン語"
+  },
+  "languages_fr": {
+    "message": "フランス語",
+    "description": "言語名：フランス語"
+  },
+  "languages_de": {
+    "message": "ドイツ語",
+    "description": "言語名：ドイツ語"
+  },
+  "languages_ko": {
+    "message": "韓国語",
+    "description": "言語名：韓国語"
+  },
+  "sidebar_empty_noData": {
+    "message": "字幕データがありません",
+    "description": "サイドバーに字幕がない場合の空状態メッセージ"
+  },
+  "sidebar_empty_enableSubtitle": {
+    "message": "動画の字幕を有効にしてください",
+    "description": "サイドバーの空状態時に字幕を有効にするよう促すメッセージ"
+  },
+  "contentScript_translating": {
+    "message": "⚠️ 翻訳中...",
+    "description": "翻訳処理中のステータスメッセージ"
+  },
+  "tooltip_notIncluded": {
+    "message": "未収録",
+    "description": "辞書にエントリが見つからない場合のメッセージ"
+  },
+  "tooltip_error_loadingDefinition": {
+    "message": "定義の読み込みエラー",
+    "description": "辞書検索失敗時のエラーメッセージ"
+  },
+  "contentScript_noNativeContent": {
+    "message": "原文コンテンツなし",
+    "description": "元の字幕コンテンツが欠落している場合のメッセージ"
+  },
+  "html_popup_title": {
+    "message": "Moki - 言語学習拡張機能",
+    "description": "ポップアップページのブラウザタブタイトル"
+  },
+  "tooltip_section_definition": {
+    "message": "定義",
+    "description": "ツールチップの定義区切り線の上のセクションラベル"
+  },
+  "tooltip_section_phrases": {
+    "message": "フレーズ",
+    "description": "ツールチップのフレーズ区切り線の上のセクションラベル"
+  },
+  "tooltip_section_sentenceTranslation": {
+    "message": "文の翻訳",
+    "description": "ツールチップの文翻訳区切り線の上のセクションラベル"
+  },
+  "auth_login_tab": {
+    "message": "ログイン",
+    "description": "ログインタブラベル"
+  },
+  "auth_register_tab": {
+    "message": "登録",
+    "description": "登録タブラベル"
+  },
+  "auth_email_label": {
+    "message": "メールアドレス",
+    "description": "メールフィールドラベル"
+  },
+  "auth_password_label": {
+    "message": "パスワード",
+    "description": "パスワードフィールドラベル"
+  },
+  "auth_username_label": {
+    "message": "ユーザー名",
+    "description": "ユーザー名フィールドラベル"
+  },
+  "auth_confirmPassword_label": {
+    "message": "パスワード確認",
+    "description": "パスワード確認フィールドラベル"
+  },
+  "auth_forgotPassword": {
+    "message": "パスワードを忘れた？",
+    "description": "パスワード忘れリンクテキスト"
+  },
+  "auth_login_button": {
+    "message": "ログイン",
+    "description": "ログインボタンテキスト"
+  },
+  "auth_register_button": {
+    "message": "登録",
+    "description": "登録ボタンテキスト"
+  },
+  "auth_googleLogin": {
+    "message": "Googleでログイン",
+    "description": "Googleログインボタンテキスト"
+  },
+  "auth_email_placeholder": {
+    "message": "メールアドレスを入力",
+    "description": "メールフィールドプレースホルダー"
+  },
+  "auth_password_placeholder": {
+    "message": "パスワードを入力",
+    "description": "パスワードフィールドプレースホルダー"
+  },
+  "auth_username_placeholder": {
+    "message": "ユーザー名を入力",
+    "description": "ユーザー名フィールドプレースホルダー"
+  },
+  "auth_passwordRequirements": {
+    "message": "8文字以上",
+    "description": "パスワード要件テキスト"
+  },
+  "auth_passwordHint": {
+    "message": "8〜12文字",
+    "description": "プレースホルダーのパスワード長さヒント"
+  },
+  "auth_or": {
+    "message": "または",
+    "description": "ログインオプション間の区切りテキスト"
+  },
+  "loggedIn_loading": {
+    "message": "読み込み中...",
+    "description": "ログイン済みポップアップの読み込みテキスト"
+  },
+  "loggedIn_testUser": {
+    "message": "テストユーザー",
+    "description": "ユーザー名がない場合のフォールバックユーザー名"
+  },
+  "loggedIn_myCollection": {
+    "message": "マイコレクション",
+    "description": "マイコレクションメニュー項目"
+  },
+  "loggedIn_browsingHistory": {
+    "message": "閲覧履歴",
+    "description": "閲覧履歴メニュー項目"
+  },
+  "loggedIn_settings": {
+    "message": "設定",
+    "description": "設定メニュー項目"
+  },
+  "loggedIn_logout": {
+    "message": "ログアウト",
+    "description": "ログアウトメニュー項目"
+  },
+  "settings_title": {
+    "message": "設定",
+    "description": "設定ページのタイトル"
+  },
+  "settings_nativeLanguage": {
+    "message": "母語",
+    "description": "母語設定のラベル"
+  },
+  "settings_targetLanguage": {
+    "message": "目標言語",
+    "description": "目標言語設定のラベル"
+  },
+  "settings_interfaceLanguage": {
+    "message": "インターフェース言語",
+    "description": "インターフェース言語設定のラベル"
+  },
+  "settings_save": {
+    "message": "設定を保存",
+    "description": "設定保存ボタンのテキスト"
+  },
+  "settings_saving": {
+    "message": "保存中...",
+    "description": "設定保存中のステータステキスト"
+  },
+  "settings_saved": {
+    "message": "保存しました",
+    "description": "設定保存成功のステータステキスト"
+  },
+  "sidebar_auth_banner_text": {
+    "message": "ログインしてすべての機能を使用",
+    "description": "サイドバー認証バナーのテキスト"
+  },
+  "sidebar_auth_login_button": {
+    "message": "ログイン",
+    "description": "サイドバーログインボタンのテキスト"
+  },
+  "history_empty": {
+    "message": "閲覧履歴がありません",
+    "description": "閲覧履歴の空状態メッセージ"
+  },
+  "history_justNow": {
+    "message": "たった今",
+    "description": "時間形式：たった今"
+  },
+  "history_minutesAgo": {
+    "message": "$1分前",
+    "description": "時間形式：分前"
+  },
+  "history_hoursAgo": {
+    "message": "$1時間前",
+    "description": "時間形式：時間前"
+  },
+  "history_daysAgo": {
+    "message": "$1日前",
+    "description": "時間形式：日前"
+  },
+  "collection_empty": {
+    "message": "コレクションはまだありません",
+    "description": "マイコレクションの空状態メッセージ"
+  },
+  "mokiControl_enableMoki": {
+    "message": "Moki を有効にする",
+    "description": "MokiControl メニューの有効化トグルラベル"
+  },
+  "mokiControl_subtitle": {
+    "message": "字幕",
+    "description": "MokiControl メニューの字幕オプションラベル"
+  },
+  "mokiControl_noSubtitle": {
+    "message": "利用可能な字幕がありません",
+    "description": "MokiControl サブメニューで字幕がない場合のメッセージ"
+  },
+  "mokiControl_tooltip_enable": {
+    "message": "Moki 字幕を有効にする",
+    "description": "MokiControl ボタンの有効化ツールチップ"
+  },
+  "mokiControl_tooltip_disable": {
+    "message": "Moki 字幕を無効にする",
+    "description": "MokiControl ボタンの無効化ツールチップ"
+  },
+  "mokiControl_tooltip_unavailable": {
+    "message": "この動画には字幕がありません",
+    "description": "MokiControl ボタンが利用不可の場合のツールチップ"
+  },
+  "mokiControl_tooltip_loading": {
+    "message": "読み込み中...",
+    "description": "MokiControl ボタンの読み込み中ツールチップ"
+  },
+  "mokiControl_videoLanguage": {
+    "message": "動画の言語",
+    "description": "MokiControl サブメニューの動画ネイティブ言語ラベル"
+  }
+}

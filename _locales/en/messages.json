@@ -1,0 +1,266 @@
+{
+  "popup_title": {
+    "message": "Settings",
+    "description": "Popup page title"
+  },
+  "popup_nativeLanguage_label": {
+    "message": "Native Language:",
+    "description": "Label for native language selector"
+  },
+  "popup_interfaceLanguage_label": {
+    "message": "Interface Language:",
+    "description": "Label for interface language selector"
+  },
+  "languages_zhCN": {
+    "message": "Simplified Chinese",
+    "description": "Language name: Simplified Chinese"
+  },
+  "languages_zhTW": {
+    "message": "Traditional Chinese",
+    "description": "Language name: Traditional Chinese"
+  },
+  "languages_en": {
+    "message": "English",
+    "description": "Language name: English"
+  },
+  "languages_ja": {
+    "message": "Japanese",
+    "description": "Language name: Japanese"
+  },
+  "languages_es": {
+    "message": "Spanish",
+    "description": "Language name: Spanish"
+  },
+  "languages_fr": {
+    "message": "French",
+    "description": "Language name: French"
+  },
+  "languages_de": {
+    "message": "German",
+    "description": "Language name: German"
+  },
+  "languages_ko": {
+    "message": "Korean",
+    "description": "Language name: Korean"
+  },
+  "sidebar_empty_noData": {
+    "message": "No subtitle data",
+    "description": "Empty state message in sidebar when no subtitles available"
+  },
+  "sidebar_empty_enableSubtitle": {
+    "message": "Please enable subtitles on the video",
+    "description": "Instruction to enable subtitles in sidebar empty state"
+  },
+  "contentScript_translating": {
+    "message": "⚠️ Translating...",
+    "description": "Status message shown while translation is in progress"
+  },
+  "tooltip_notIncluded": {
+    "message": "Not yet included",
+    "description": "Message shown when word entry is not found in dictionary"
+  },
+  "tooltip_error_loadingDefinition": {
+    "message": "Error loading definition",
+    "description": "Error message shown when dictionary lookup fails"
+  },
+  "contentScript_noNativeContent": {
+    "message": "No native content",
+    "description": "Message shown when original subtitle content is missing"
+  },
+  "html_popup_title": {
+    "message": "Moki - Language Learning Extension",
+    "description": "Browser tab title for popup page"
+  },
+  "tooltip_section_definition": {
+    "message": "Definition",
+    "description": "Section label above definition divider in tooltip"
+  },
+  "tooltip_section_phrases": {
+    "message": "Phrases",
+    "description": "Section label above phrases divider in tooltip"
+  },
+  "tooltip_section_sentenceTranslation": {
+    "message": "Sentence Translation",
+    "description": "Section label above sentence translation divider in tooltip"
+  },
+  "auth_login_tab": {
+    "message": "Login",
+    "description": "Login tab label"
+  },
+  "auth_register_tab": {
+    "message": "Register",
+    "description": "Register tab label"
+  },
+  "auth_email_label": {
+    "message": "Email",
+    "description": "Email field label"
+  },
+  "auth_password_label": {
+    "message": "Password",
+    "description": "Password field label"
+  },
+  "auth_username_label": {
+    "message": "Username",
+    "description": "Username field label"
+  },
+  "auth_confirmPassword_label": {
+    "message": "Confirm Password",
+    "description": "Confirm password field label"
+  },
+  "auth_forgotPassword": {
+    "message": "Forgot Password?",
+    "description": "Forgot password link text"
+  },
+  "auth_login_button": {
+    "message": "Login",
+    "description": "Login button text"
+  },
+  "auth_register_button": {
+    "message": "Register",
+    "description": "Register button text"
+  },
+  "auth_googleLogin": {
+    "message": "Sign in with Google",
+    "description": "Google login button text"
+  },
+  "auth_email_placeholder": {
+    "message": "Enter email",
+    "description": "Email field placeholder"
+  },
+  "auth_password_placeholder": {
+    "message": "Enter password",
+    "description": "Password field placeholder"
+  },
+  "auth_username_placeholder": {
+    "message": "Enter username",
+    "description": "Username field placeholder"
+  },
+  "auth_passwordRequirements": {
+    "message": "At least 8 characters",
+    "description": "Password requirements text"
+  },
+  "auth_passwordHint": {
+    "message": "8-12 characters",
+    "description": "Password length hint in placeholder"
+  },
+  "auth_or": {
+    "message": "or",
+    "description": "Divider text between login options"
+  },
+  "loggedIn_loading": {
+    "message": "Loading...",
+    "description": "Loading text in logged-in popup"
+  },
+  "loggedIn_testUser": {
+    "message": "Test User",
+    "description": "Fallback username when user has no name"
+  },
+  "loggedIn_myCollection": {
+    "message": "My Collection",
+    "description": "My collection menu item"
+  },
+  "loggedIn_browsingHistory": {
+    "message": "Browsing History",
+    "description": "Browsing history menu item"
+  },
+  "loggedIn_settings": {
+    "message": "Settings",
+    "description": "Settings menu item"
+  },
+  "loggedIn_logout": {
+    "message": "Logout",
+    "description": "Logout menu item"
+  },
+  "settings_title": {
+    "message": "Settings",
+    "description": "Settings page title"
+  },
+  "settings_nativeLanguage": {
+    "message": "Native Language",
+    "description": "Native language setting label"
+  },
+  "settings_targetLanguage": {
+    "message": "Target Language",
+    "description": "Target language setting label"
+  },
+  "settings_interfaceLanguage": {
+    "message": "Interface Language",
+    "description": "Interface language setting label"
+  },
+  "settings_save": {
+    "message": "Save Settings",
+    "description": "Save settings button text"
+  },
+  "settings_saving": {
+    "message": "Saving...",
+    "description": "Saving settings status text"
+  },
+  "settings_saved": {
+    "message": "Saved",
+    "description": "Settings saved status text"
+  },
+  "sidebar_auth_banner_text": {
+    "message": "Log in to use full features",
+    "description": "Sidebar authentication banner text"
+  },
+  "sidebar_auth_login_button": {
+    "message": "Log in",
+    "description": "Sidebar login button text"
+  },
+  "history_empty": {
+    "message": "No browsing history",
+    "description": "Empty state message in browsing history"
+  },
+  "history_justNow": {
+    "message": "Just now",
+    "description": "Time format for just now"
+  },
+  "history_minutesAgo": {
+    "message": "$1 min ago",
+    "description": "Time format for minutes ago"
+  },
+  "history_hoursAgo": {
+    "message": "$1 hr ago",
+    "description": "Time format for hours ago"
+  },
+  "history_daysAgo": {
+    "message": "$1 day ago",
+    "description": "Time format for days ago"
+  },
+  "collection_empty": {
+    "message": "No collections yet",
+    "description": "Empty state message in my collection"
+  },
+  "mokiControl_enableMoki": {
+    "message": "Enable Moki",
+    "description": "Label for enable toggle in MokiControl menu"
+  },
+  "mokiControl_subtitle": {
+    "message": "Subtitle",
+    "description": "Label for subtitle option in MokiControl menu"
+  },
+  "mokiControl_noSubtitle": {
+    "message": "No subtitles available",
+    "description": "Message when no subtitles are available in MokiControl submenu"
+  },
+  "mokiControl_tooltip_enable": {
+    "message": "Enable Moki subtitles",
+    "description": "Tooltip when MokiControl button can be enabled"
+  },
+  "mokiControl_tooltip_disable": {
+    "message": "Disable Moki subtitles",
+    "description": "Tooltip when MokiControl button can be disabled"
+  },
+  "mokiControl_tooltip_unavailable": {
+    "message": "No subtitles available for this video",
+    "description": "Tooltip when MokiControl button is unavailable"
+  },
+  "mokiControl_tooltip_loading": {
+    "message": "Loading...",
+    "description": "Tooltip when MokiControl button is loading"
+  },
+  "mokiControl_videoLanguage": {
+    "message": "Video language",
+    "description": "Label for video's native language in MokiControl submenu"
+  }
+}

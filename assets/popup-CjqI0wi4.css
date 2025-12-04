@@ -1,0 +1,1227 @@
+/* AuthPopup 容器 - 黑底白字，与原 popup 统一风格 */
+.auth-popup-container {
+  width: 350px;
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  background: #000000;
+  color: #ffffff;
+  font-family:
+    Inter,
+    'Noto Sans SC',
+    'Noto Sans JP',
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    Arial,
+    sans-serif;
+  box-sizing: border-box;
+}
+
+.auth-popup-container *,
+.auth-popup-container *::before,
+.auth-popup-container *::after {
+  box-sizing: border-box;
+}
+
+.auth-popup-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Loading 状态 */
+.auth-loading {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000000;
+  color: #ffffff;
+}
+
+/* Tabs 容器 */
+.auth-tabs {
+  width: 100%;
+  margin-bottom: 20px;
+  background: #101828;
+  border: 1px solid #1e2939;
+  border-radius: 14px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 4px;
+  gap: 0;
+}
+
+.auth-tab-button {
+  padding: 5px 9px;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid transparent;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: transparent;
+  color: #99a1af;
+  line-height: 20px;
+  letter-spacing: -0.1504px;
+}
+
+.auth-tab-button:hover {
+  color: #ffffff;
+}
+
+.auth-tab-button.active {
+  background: #4ade80;
+  color: #000000;
+}
+
+/* Form 样式 */
+.auth-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* 注册表单填充高度 */
+.auth-form-register {
+  gap: 20px;
+}
+
+.auth-form-register .auth-submit-button {
+  margin-top: auto;
+}
+
+.auth-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.auth-form-label {
+  color: #99a1af;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.1504px;
+}
+
+.auth-form-input {
+  width: 100%;
+  height: 40px;
+  padding: 4px 12px;
+  background: #101828;
+  border: 1px solid #1e2939;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.2s ease;
+  letter-spacing: -0.1504px;
+}
+
+.auth-form-input::placeholder {
+  color: #4a5565;
+}
+
+.auth-form-input:focus {
+  border-color: #4ade80;
+  box-shadow: 0 0 0 3px rgba(74, 222, 128, 0.1);
+}
+
+/* Forgot Password 链接 */
+.auth-forgot-password {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.auth-forgot-password button {
+  font-size: 12px;
+  line-height: 16px;
+  color: #4ade80;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: color 0.2s ease;
+}
+
+.auth-forgot-password button:hover {
+  color: #22c55e;
+}
+
+/* 主按钮 */
+.auth-submit-button {
+  width: 100%;
+  height: 40px;
+  background: #4ade80;
+  color: #000000;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  line-height: 20px;
+  letter-spacing: -0.1504px;
+}
+
+.auth-submit-button:hover:not(:disabled) {
+  background: #22c55e;
+}
+
+.auth-submit-button:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+.auth-submit-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* 错误提示 */
+.auth-error {
+  padding: 12px;
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  border-radius: 6px;
+  color: #ef4444;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* Divider */
+.auth-divider {
+  position: relative;
+  height: 16px;
+  margin: 0;
+}
+
+.auth-divider-line {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  top: 7.5px;
+}
+
+.auth-divider-line::before {
+  content: '';
+  width: 100%;
+  border-top: 1px solid #1e2939;
+}
+
+.auth-divider-text {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  height: 16px;
+}
+
+.auth-divider-text span {
+  background: #000000;
+  padding: 0 8px;
+  color: #4a5565;
+  line-height: 16px;
+}
+
+/* Google 登录按钮 */
+.auth-google-button {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: transparent;
+  border: 1px solid #1e2939;
+  border-radius: 8px;
+  color: #99a1af;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  line-height: 20px;
+  letter-spacing: -0.1504px;
+}
+
+.auth-google-button:hover {
+  background: #101828;
+  color: #ffffff;
+}
+
+.auth-google-button svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* Loading Overlay (遮罩) */
+.auth-loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+/* Spinner (转圈动画) */
+.auth-spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(74, 222, 128, 0.2);
+  border-top-color: #4ade80;
+  border-radius: 50%;
+  animation: auth-spin 0.8s linear infinite;
+}
+
+@keyframes auth-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+:root {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
+
+  color-scheme: light dark;
+  background-color: #242424;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    background-color: #fafafa;
+  }
+}
+
+body {
+  min-width: 20rem;
+  margin: 0;
+}
+
+/* Shared Popup Header Styles */
+.popup-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #000000;
+  border-bottom: 1px solid #1e2939;
+  padding: 20px;
+}
+
+.popup-header-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 48px;
+}
+/* 已登录用户界面容器 */
+.logged-in-container {
+  width: 350px;
+  min-height: 520px;
+  display: flex;
+  flex-direction: column;
+  background: #000000;
+  color: #ffffff;
+  font-family:
+    Inter,
+    'Noto Sans SC',
+    'Noto Sans JP',
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    Arial,
+    sans-serif;
+  box-sizing: border-box;
+}
+
+.logged-in-container *,
+.logged-in-container *::before,
+.logged-in-container *::after {
+  box-sizing: border-box;
+}
+
+.logged-in-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Loading 状态 */
+.logged-in-loading {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+/* 用户资料区域 - 使用统一的 header 样式 */
+/* .popup-header 和 .popup-header-content 在 index.css 中定义 */
+
+.user-profile {
+  /* 继承 popup-header-content 的布局 */
+}
+
+.user-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #4ade80;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #000000;
+}
+
+.user-name {
+  flex: 1;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 30px;
+  letter-spacing: -0.4492px;
+}
+
+/* 错误提示 */
+.logged-in-error {
+  margin: 0 20px 16px 20px;
+  padding: 12px;
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  border-radius: 6px;
+  color: #ef4444;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* 菜单区域 */
+.menu-section {
+  flex: 1;
+  padding: 20px;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.menu-item {
+  width: 100%;
+  height: 66px;
+  background: #101828;
+  border: 1px solid #1e2939;
+  border-radius: 10px;
+  padding: 0 21px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: #ffffff;
+}
+
+.menu-item:hover {
+  background: #1a2332;
+  border-color: #2a3949;
+}
+
+.menu-item:active {
+  transform: scale(0.98);
+}
+
+.menu-item-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.menu-icon {
+  color: #4ade80;
+  flex-shrink: 0;
+}
+
+.menu-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.3125px;
+  color: #ffffff;
+}
+
+.menu-arrow {
+  font-size: 16px;
+  color: #4a5565;
+  line-height: 24px;
+  letter-spacing: -0.3125px;
+}
+/* 设置页面容器 */
+.settings-container {
+  width: 350px;
+  min-height: 520px;
+  display: flex;
+  flex-direction: column;
+  background: #000000;
+  color: #ffffff;
+  font-family:
+    Inter,
+    'Noto Sans SC',
+    'Noto Sans JP',
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    Arial,
+    sans-serif;
+  box-sizing: border-box;
+}
+
+.settings-container *,
+.settings-container *::before,
+.settings-container *::after {
+  box-sizing: border-box;
+}
+
+.settings-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Header 区域 - 使用统一的 popup-header 样式 */
+/* .popup-header 和 .popup-header-content 在 index.css 中定义 */
+
+.back-button {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  color: #ffffff;
+  flex-shrink: 0;
+}
+
+.back-button:hover {
+  background: #1a2332;
+}
+
+.back-button:active {
+  transform: scale(0.95);
+}
+
+.settings-title-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 24px;
+}
+
+.settings-icon {
+  color: #4ade80;
+  flex-shrink: 0;
+}
+
+.settings-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.3125px;
+  color: #ffffff;
+}
+
+/* 表单区域 */
+.settings-form {
+  flex: 1;
+  padding: 20px;
+}
+
+.settings-form-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* 表单组 */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-label {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: -0.1504px;
+  color: #d1d5dc;
+}
+
+/* 下拉选择器容器 */
+.select-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.form-select {
+  width: 100%;
+  height: 36px;
+  background: #101828;
+  border: 1px solid #1e2939;
+  border-radius: 8px;
+  padding: 0 36px 0 13px;
+  /* 右侧留空间给箭头图标 */
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.1504px;
+  color: #ffffff;
+  font-family: inherit;
+  cursor: pointer;
+  appearance: none;
+  /* 移除默认下拉箭头 */
+  transition: all 0.2s ease;
+}
+
+.form-select:hover {
+  background: #1a2332;
+  border-color: #2a3949;
+}
+
+.form-select:focus {
+  outline: none;
+  border-color: #4ade80;
+}
+
+/* 自定义下拉箭头 */
+.select-icon {
+  position: absolute;
+  right: 13px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #d1d5dc;
+  pointer-events: none;
+  /* 让点击穿透到 select 元素 */
+}
+
+/* 下拉选项样式 */
+.form-select option {
+  background: #101828;
+  color: #ffffff;
+  padding: 8px;
+}
+
+/* 保存按钮 */
+.save-button {
+  width: 100%;
+  height: 36px;
+  background: #4ade80;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.1504px;
+  color: #000000;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-top: 16px;
+}
+
+.save-button:hover {
+  background: #3bc970;
+}
+
+.save-button:active {
+  transform: scale(0.98);
+}
+
+.save-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.save-button.saving {
+  background: #6b7280;
+}
+
+.save-button.success {
+  background: #10b981;
+}
+/* 浏览历史页面容器 */
+.history-container {
+  width: 350px;
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  background: #000000;
+  color: #ffffff;
+  font-family:
+    Inter,
+    'Noto Sans SC',
+    'Noto Sans JP',
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    Arial,
+    sans-serif;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.history-container *,
+.history-container *::before,
+.history-container *::after {
+  box-sizing: border-box;
+}
+
+.history-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+/* Header 区域 - 复用 popup-header 样式 */
+.history-title-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 24px;
+}
+
+.history-icon {
+  color: #4ade80;
+  flex-shrink: 0;
+}
+
+.history-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.3125px;
+  color: #ffffff;
+}
+
+/* 视频列表区域 */
+.history-list {
+  flex: 1;
+  padding: 0;
+}
+
+/* 自定义滚动条 */
+.history-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.history-content::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.history-content::-webkit-scrollbar-thumb {
+  background: #374151;
+  border-radius: 3px;
+}
+
+.history-content::-webkit-scrollbar-thumb:hover {
+  background: #4b5563;
+}
+
+/* 加载状态 */
+.history-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  gap: 12px;
+  color: #9ca3af;
+}
+
+.loading-spinner {
+  width: 24px;
+  height: 24px;
+  border: 2px solid #374151;
+  border-top-color: #4ade80;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 错误状态 */
+.history-error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  color: #f87171;
+  text-align: center;
+}
+
+/* 空状态 */
+.history-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  gap: 16px;
+  color: #6b7280;
+}
+
+.empty-icon {
+  opacity: 0.5;
+}
+
+/* 视频项 */
+.history-item {
+  display: flex;
+  padding: 17px 20px;
+  gap: 12px;
+  transition: background 0.2s ease;
+  border-bottom: 1px solid #1f2937;
+  cursor: pointer;
+}
+
+.history-item:hover {
+  background: #111827;
+}
+
+.history-item:last-child {
+  border-bottom: none;
+}
+
+/* 缩略图 */
+.history-thumbnail {
+  width: 120px;
+  flex-shrink: 0;
+  background: #1f2937;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.history-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 视频信息区域 */
+.history-info {
+  flex: 1;
+  display: flex;
+  gap: 12px;
+  min-width: 0;
+}
+
+.history-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+/* 视频标题 - 最多2行 */
+.history-video-title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #ffffff;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 频道名称 */
+.history-channel {
+  margin: 4px 0 8px 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #9ca3af;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.history-channel.clickable {
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.history-channel.clickable:hover {
+  color: #4ade80;
+}
+
+/* 元信息区域 */
+.history-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: auto;
+}
+
+/* 平台标签 */
+.history-platform {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 6px;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #ffffff;
+  background: #374151;
+  border-radius: 4px;
+  text-transform: capitalize;
+}
+
+/* 时间 */
+.history-time {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #6b7280;
+}
+
+/* 跳转按钮 - 仅在 hover 时显示 */
+.history-jump-btn {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1f2937;
+  border: none;
+  border-radius: 6px;
+  color: #9ca3af;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  align-self: center;
+  opacity: 0;
+}
+
+.history-item:hover .history-jump-btn {
+  opacity: 1;
+}
+
+.history-jump-btn:hover {
+  background: #374151;
+  color: #4ade80;
+}
+
+.history-jump-btn:active {
+  transform: scale(0.95);
+}
+
+/* 加载更多指示器 */
+.history-loading-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 20px;
+}
+
+.loading-spinner.small {
+  width: 16px;
+  height: 16px;
+  border-width: 2px;
+}
+/* 我的收藏页面容器 */
+.collection-container {
+  width: 350px;
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  background: #000000;
+  color: #ffffff;
+  font-family:
+    Inter,
+    'Noto Sans SC',
+    'Noto Sans JP',
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    Arial,
+    sans-serif;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.collection-container *,
+.collection-container *::before,
+.collection-container *::after {
+  box-sizing: border-box;
+}
+
+.collection-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+/* Header 区域 - 复用 popup-header 样式 */
+.collection-title-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 24px;
+  flex: 1;
+  min-width: 0;
+}
+
+.collection-icon {
+  color: #4ade80;
+  flex-shrink: 0;
+}
+
+.collection-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.3125px;
+  color: #ffffff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 收藏列表区域 */
+.collection-list {
+  flex: 1;
+  padding: 0;
+}
+
+/* 自定义滚动条 */
+.collection-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.collection-content::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.collection-content::-webkit-scrollbar-thumb {
+  background: #374151;
+  border-radius: 3px;
+}
+
+.collection-content::-webkit-scrollbar-thumb:hover {
+  background: #4b5563;
+}
+
+/* 加载状态 */
+.collection-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  gap: 12px;
+  color: #9ca3af;
+}
+
+/* 复用 loading-spinner 来自 BrowsingHistoryPopup.css */
+
+/* 错误状态 */
+.collection-error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  color: #f87171;
+  text-align: center;
+}
+
+/* 空状态 */
+.collection-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  gap: 16px;
+  color: #6b7280;
+}
+
+/* 收藏项 */
+.collection-item {
+  display: flex;
+  align-items: center;
+  padding: 14px 20px;
+  gap: 12px;
+  transition: background 0.2s ease;
+  border-bottom: 1px solid #1e2939;
+  min-height: 82px;
+  cursor: pointer;
+}
+
+.collection-item:hover {
+  background: #111827;
+}
+
+.collection-item:last-child {
+  border-bottom: none;
+}
+
+/* 缩略图 */
+.collection-thumbnail {
+  width: 80px;
+  height: 54px;
+  flex-shrink: 0;
+  background: #1e2939;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.collection-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 收藏内容区域 */
+.collection-item-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+/* 文本区域 */
+.collection-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+/* 单词 */
+.collection-word {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.3125px;
+  color: #ffffff;
+}
+
+/* 定义 - 最多2行 */
+.collection-definition {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.1504px;
+  color: #99a1af;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 操作按钮容器 */
+.collection-actions {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  flex-shrink: 0;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.collection-item:hover .collection-actions {
+  opacity: 1;
+}
+
+/* 操作按钮 */
+.collection-action-btn {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  border-radius: 8px;
+  color: #9ca3af;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.collection-action-btn:hover {
+  background: #1f2937;
+  color: #ffffff;
+}
+
+.collection-action-btn:active {
+  transform: scale(0.95);
+}
+
+/* 删除按钮特殊样式 */
+.collection-delete-btn:hover {
+  color: #f87171;
+}
+
+.collection-delete-btn.deleting {
+  color: #f87171;
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* 加载更多指示器 */
+.collection-loading-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 20px;
+}

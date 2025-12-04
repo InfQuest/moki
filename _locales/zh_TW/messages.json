@@ -1,0 +1,266 @@
+{
+  "popup_title": {
+    "message": "設定",
+    "description": "彈出頁面標題"
+  },
+  "popup_nativeLanguage_label": {
+    "message": "母語：",
+    "description": "母語選擇器的標籤"
+  },
+  "popup_interfaceLanguage_label": {
+    "message": "介面語言：",
+    "description": "介面語言選擇器的標籤"
+  },
+  "languages_zhCN": {
+    "message": "簡體中文",
+    "description": "語言名稱：簡體中文"
+  },
+  "languages_zhTW": {
+    "message": "繁體中文",
+    "description": "語言名稱：繁體中文"
+  },
+  "languages_en": {
+    "message": "英語",
+    "description": "語言名稱：英語"
+  },
+  "languages_ja": {
+    "message": "日語",
+    "description": "語言名稱：日語"
+  },
+  "languages_es": {
+    "message": "西班牙語",
+    "description": "語言名稱：西班牙語"
+  },
+  "languages_fr": {
+    "message": "法語",
+    "description": "語言名稱：法語"
+  },
+  "languages_de": {
+    "message": "德語",
+    "description": "語言名稱：德語"
+  },
+  "languages_ko": {
+    "message": "韓語",
+    "description": "語言名稱：韓語"
+  },
+  "sidebar_empty_noData": {
+    "message": "暫無字幕資料",
+    "description": "側邊欄無字幕時的空狀態提示"
+  },
+  "sidebar_empty_enableSubtitle": {
+    "message": "請確保影片已開啟字幕",
+    "description": "側邊欄空狀態時提示用戶開啟字幕"
+  },
+  "contentScript_translating": {
+    "message": "⚠️ 正在翻譯中...",
+    "description": "翻譯進行中的狀態提示"
+  },
+  "tooltip_notIncluded": {
+    "message": "暫未收錄",
+    "description": "詞典中未找到詞條時顯示的提示"
+  },
+  "tooltip_error_loadingDefinition": {
+    "message": "載入釋義失敗",
+    "description": "詞典查詢失敗時的錯誤提示"
+  },
+  "contentScript_noNativeContent": {
+    "message": "無原文內容",
+    "description": "原始字幕內容缺失時的提示"
+  },
+  "html_popup_title": {
+    "message": "Moki - 語言學習擴充功能",
+    "description": "彈出頁面的瀏覽器標籤標題"
+  },
+  "tooltip_section_definition": {
+    "message": "定義",
+    "description": "Tooltip 中定義分隔線上方的章節標籤"
+  },
+  "tooltip_section_phrases": {
+    "message": "詞組",
+    "description": "Tooltip 中詞組分隔線上方的章節標籤"
+  },
+  "tooltip_section_sentenceTranslation": {
+    "message": "句子翻譯",
+    "description": "Tooltip 中句子翻譯分隔線上方的章節標籤"
+  },
+  "auth_login_tab": {
+    "message": "登入",
+    "description": "登入標籤頁"
+  },
+  "auth_register_tab": {
+    "message": "註冊",
+    "description": "註冊標籤頁"
+  },
+  "auth_email_label": {
+    "message": "電子郵件",
+    "description": "電子郵件欄位標籤"
+  },
+  "auth_password_label": {
+    "message": "密碼",
+    "description": "密碼欄位標籤"
+  },
+  "auth_username_label": {
+    "message": "使用者名稱",
+    "description": "使用者名稱欄位標籤"
+  },
+  "auth_confirmPassword_label": {
+    "message": "確認密碼",
+    "description": "確認密碼欄位標籤"
+  },
+  "auth_forgotPassword": {
+    "message": "忘記密碼？",
+    "description": "忘記密碼連結文字"
+  },
+  "auth_login_button": {
+    "message": "登入",
+    "description": "登入按鈕文字"
+  },
+  "auth_register_button": {
+    "message": "註冊",
+    "description": "註冊按鈕文字"
+  },
+  "auth_googleLogin": {
+    "message": "使用 Google 登入",
+    "description": "Google 登入按鈕文字"
+  },
+  "auth_email_placeholder": {
+    "message": "請輸入電子郵件",
+    "description": "電子郵件欄位佔位符"
+  },
+  "auth_password_placeholder": {
+    "message": "請輸入密碼",
+    "description": "密碼欄位佔位符"
+  },
+  "auth_username_placeholder": {
+    "message": "請輸入使用者名稱",
+    "description": "使用者名稱欄位佔位符"
+  },
+  "auth_passwordRequirements": {
+    "message": "至少8個字元",
+    "description": "密碼要求文字"
+  },
+  "auth_passwordHint": {
+    "message": "8-12個字元",
+    "description": "佔位符中的密碼長度提示"
+  },
+  "auth_or": {
+    "message": "或",
+    "description": "登入選項之間的分隔文字"
+  },
+  "loggedIn_loading": {
+    "message": "載入中...",
+    "description": "已登入彈出窗口中的載入文字"
+  },
+  "loggedIn_testUser": {
+    "message": "測試用戶",
+    "description": "用戶無名稱時的回退用戶名"
+  },
+  "loggedIn_myCollection": {
+    "message": "我的收藏",
+    "description": "我的收藏選單項"
+  },
+  "loggedIn_browsingHistory": {
+    "message": "瀏覽歷史",
+    "description": "瀏覽歷史選單項"
+  },
+  "loggedIn_settings": {
+    "message": "設定",
+    "description": "設定選單項"
+  },
+  "loggedIn_logout": {
+    "message": "登出",
+    "description": "登出選單項"
+  },
+  "settings_title": {
+    "message": "設定",
+    "description": "設定頁面標題"
+  },
+  "settings_nativeLanguage": {
+    "message": "母語",
+    "description": "母語設定標籤"
+  },
+  "settings_targetLanguage": {
+    "message": "目標語言",
+    "description": "目標語言設定標籤"
+  },
+  "settings_interfaceLanguage": {
+    "message": "介面語言",
+    "description": "介面語言設定標籤"
+  },
+  "settings_save": {
+    "message": "儲存設定",
+    "description": "儲存設定按鈕文字"
+  },
+  "settings_saving": {
+    "message": "儲存中...",
+    "description": "正在儲存設定的狀態文字"
+  },
+  "settings_saved": {
+    "message": "已儲存",
+    "description": "設定儲存成功的狀態文字"
+  },
+  "sidebar_auth_banner_text": {
+    "message": "登入以使用完整功能",
+    "description": "側邊欄認證橫幅文字"
+  },
+  "sidebar_auth_login_button": {
+    "message": "登入",
+    "description": "側邊欄登入按鈕文字"
+  },
+  "history_empty": {
+    "message": "暫無瀏覽記錄",
+    "description": "瀏覽歷史空狀態提示"
+  },
+  "history_justNow": {
+    "message": "剛剛",
+    "description": "時間格式：剛剛"
+  },
+  "history_minutesAgo": {
+    "message": "$1分鐘前",
+    "description": "時間格式：分鐘前"
+  },
+  "history_hoursAgo": {
+    "message": "$1小時前",
+    "description": "時間格式：小時前"
+  },
+  "history_daysAgo": {
+    "message": "$1天前",
+    "description": "時間格式：天前"
+  },
+  "collection_empty": {
+    "message": "暫無收藏",
+    "description": "我的收藏空狀態提示"
+  },
+  "mokiControl_enableMoki": {
+    "message": "啟用 Moki",
+    "description": "MokiControl 選單中的啟用開關標籤"
+  },
+  "mokiControl_subtitle": {
+    "message": "字幕",
+    "description": "MokiControl 選單中的字幕選項標籤"
+  },
+  "mokiControl_noSubtitle": {
+    "message": "暫無可用字幕",
+    "description": "MokiControl 子選單中無字幕時的提示"
+  },
+  "mokiControl_tooltip_enable": {
+    "message": "啟用 Moki 字幕",
+    "description": "MokiControl 按鈕的啟用提示"
+  },
+  "mokiControl_tooltip_disable": {
+    "message": "停用 Moki 字幕",
+    "description": "MokiControl 按鈕的停用提示"
+  },
+  "mokiControl_tooltip_unavailable": {
+    "message": "此影片沒有可用字幕",
+    "description": "MokiControl 按鈕不可用時的提示"
+  },
+  "mokiControl_tooltip_loading": {
+    "message": "載入中...",
+    "description": "MokiControl 按鈕載入時的提示"
+  },
+  "mokiControl_videoLanguage": {
+    "message": "影片語言",
+    "description": "MokiControl 語言子選單中影片原語言的標識"
+  }
+}

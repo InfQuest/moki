@@ -1,0 +1,266 @@
+{
+  "popup_title": {
+    "message": "Einstellungen",
+    "description": "Titel der Popup-Seite"
+  },
+  "popup_nativeLanguage_label": {
+    "message": "Muttersprache:",
+    "description": "Beschriftung des Muttersprachenauswählers"
+  },
+  "popup_interfaceLanguage_label": {
+    "message": "Schnittstellensprache:",
+    "description": "Beschriftung des Schnittstellensprachenauswählers"
+  },
+  "languages_zhCN": {
+    "message": "Vereinfachtes Chinesisch",
+    "description": "Sprachname: Vereinfachtes Chinesisch"
+  },
+  "languages_zhTW": {
+    "message": "Traditionelles Chinesisch",
+    "description": "Sprachname: Traditionelles Chinesisch"
+  },
+  "languages_en": {
+    "message": "Englisch",
+    "description": "Sprachname: Englisch"
+  },
+  "languages_ja": {
+    "message": "Japanisch",
+    "description": "Sprachname: Japanisch"
+  },
+  "languages_es": {
+    "message": "Spanisch",
+    "description": "Sprachname: Spanisch"
+  },
+  "languages_fr": {
+    "message": "Französisch",
+    "description": "Sprachname: Französisch"
+  },
+  "languages_de": {
+    "message": "Deutsch",
+    "description": "Sprachname: Deutsch"
+  },
+  "languages_ko": {
+    "message": "Koreanisch",
+    "description": "Sprachname: Koreanisch"
+  },
+  "sidebar_empty_noData": {
+    "message": "Keine Untertiteldaten",
+    "description": "Leerzustandsmeldung in der Seitenleiste, wenn keine Untertitel verfügbar sind"
+  },
+  "sidebar_empty_enableSubtitle": {
+    "message": "Bitte aktivieren Sie Untertitel im Video",
+    "description": "Anweisung zum Aktivieren von Untertiteln im Leerzustand"
+  },
+  "contentScript_translating": {
+    "message": "⚠️ Übersetzung läuft...",
+    "description": "Statusmeldung während der Übersetzung"
+  },
+  "tooltip_notIncluded": {
+    "message": "Noch nicht enthalten",
+    "description": "Meldung, wenn der Eintrag im Wörterbuch nicht gefunden wird"
+  },
+  "tooltip_error_loadingDefinition": {
+    "message": "Fehler beim Laden der Definition",
+    "description": "Fehlermeldung bei fehlgeschlagener Wörterbuchsuche"
+  },
+  "contentScript_noNativeContent": {
+    "message": "Kein Originalinhalt",
+    "description": "Meldung, wenn der ursprüngliche Untertitelinhalt fehlt"
+  },
+  "html_popup_title": {
+    "message": "Moki - Sprachlernerweiterung",
+    "description": "Browser-Tab-Titel für die Popup-Seite"
+  },
+  "tooltip_section_definition": {
+    "message": "Definition",
+    "description": "Abschnittsbeschriftung über dem Definitions-Trennstrich im Tooltip"
+  },
+  "tooltip_section_phrases": {
+    "message": "Phrasen",
+    "description": "Abschnittsbeschriftung über dem Phrasen-Trennstrich im Tooltip"
+  },
+  "tooltip_section_sentenceTranslation": {
+    "message": "Satzübersetzung",
+    "description": "Abschnittsbeschriftung über dem Satzübersetzungs-Trennstrich im Tooltip"
+  },
+  "auth_login_tab": {
+    "message": "Anmelden",
+    "description": "Anmeldetab-Beschriftung"
+  },
+  "auth_register_tab": {
+    "message": "Registrieren",
+    "description": "Registrierungstab-Beschriftung"
+  },
+  "auth_email_label": {
+    "message": "E-Mail",
+    "description": "E-Mail-Feld-Beschriftung"
+  },
+  "auth_password_label": {
+    "message": "Passwort",
+    "description": "Passwort-Feld-Beschriftung"
+  },
+  "auth_username_label": {
+    "message": "Benutzername",
+    "description": "Benutzername-Feld-Beschriftung"
+  },
+  "auth_confirmPassword_label": {
+    "message": "Passwort bestätigen",
+    "description": "Passwortbestätigungs-Feld-Beschriftung"
+  },
+  "auth_forgotPassword": {
+    "message": "Passwort vergessen?",
+    "description": "Passwort vergessen Link-Text"
+  },
+  "auth_login_button": {
+    "message": "Anmelden",
+    "description": "Anmelden-Button-Text"
+  },
+  "auth_register_button": {
+    "message": "Registrieren",
+    "description": "Registrieren-Button-Text"
+  },
+  "auth_googleLogin": {
+    "message": "Mit Google anmelden",
+    "description": "Google-Anmelden-Button-Text"
+  },
+  "auth_email_placeholder": {
+    "message": "E-Mail eingeben",
+    "description": "E-Mail-Feld-Platzhalter"
+  },
+  "auth_password_placeholder": {
+    "message": "Passwort eingeben",
+    "description": "Passwort-Feld-Platzhalter"
+  },
+  "auth_username_placeholder": {
+    "message": "Benutzername eingeben",
+    "description": "Benutzername-Feld-Platzhalter"
+  },
+  "auth_passwordRequirements": {
+    "message": "Mindestens 8 Zeichen",
+    "description": "Passwortanforderungen-Text"
+  },
+  "auth_passwordHint": {
+    "message": "8-12 Zeichen",
+    "description": "Passwortlängenhinweis im Platzhalter"
+  },
+  "auth_or": {
+    "message": "oder",
+    "description": "Trenntext zwischen Anmeldeoptionen"
+  },
+  "loggedIn_loading": {
+    "message": "Lädt...",
+    "description": "Ladetext im angemeldeten Popup"
+  },
+  "loggedIn_testUser": {
+    "message": "Testbenutzer",
+    "description": "Ersatzbenutzername, wenn der Benutzer keinen Namen hat"
+  },
+  "loggedIn_myCollection": {
+    "message": "Meine Sammlung",
+    "description": "Meine Sammlung Menüpunkt"
+  },
+  "loggedIn_browsingHistory": {
+    "message": "Browserverlauf",
+    "description": "Browserverlauf Menüpunkt"
+  },
+  "loggedIn_settings": {
+    "message": "Einstellungen",
+    "description": "Einstellungen Menüpunkt"
+  },
+  "loggedIn_logout": {
+    "message": "Abmelden",
+    "description": "Abmelden Menüpunkt"
+  },
+  "settings_title": {
+    "message": "Einstellungen",
+    "description": "Einstellungsseitentitel"
+  },
+  "settings_nativeLanguage": {
+    "message": "Muttersprache",
+    "description": "Muttersprache-Einstellungsetikett"
+  },
+  "settings_targetLanguage": {
+    "message": "Zielsprache",
+    "description": "Zielsprache-Einstellungsetikett"
+  },
+  "settings_interfaceLanguage": {
+    "message": "Oberflächensprache",
+    "description": "Oberflächensprache-Einstellungsetikett"
+  },
+  "settings_save": {
+    "message": "Einstellungen speichern",
+    "description": "Einstellungen speichern Button-Text"
+  },
+  "settings_saving": {
+    "message": "Speichern...",
+    "description": "Einstellungen speichern Statustext"
+  },
+  "settings_saved": {
+    "message": "Gespeichert",
+    "description": "Einstellungen gespeichert Statustext"
+  },
+  "sidebar_auth_banner_text": {
+    "message": "Melden Sie sich an, um alle Funktionen zu nutzen",
+    "description": "Seitenleiste Authentifizierungsbanner-Text"
+  },
+  "sidebar_auth_login_button": {
+    "message": "Anmelden",
+    "description": "Seitenleiste Anmelden-Button-Text"
+  },
+  "history_empty": {
+    "message": "Kein Browserverlauf",
+    "description": "Leerzustandsmeldung im Browserverlauf"
+  },
+  "history_justNow": {
+    "message": "Gerade eben",
+    "description": "Zeitformat: gerade eben"
+  },
+  "history_minutesAgo": {
+    "message": "Vor $1 Min.",
+    "description": "Zeitformat: vor Minuten"
+  },
+  "history_hoursAgo": {
+    "message": "Vor $1 Std.",
+    "description": "Zeitformat: vor Stunden"
+  },
+  "history_daysAgo": {
+    "message": "Vor $1 Tag(en)",
+    "description": "Zeitformat: vor Tagen"
+  },
+  "collection_empty": {
+    "message": "Noch keine Sammlungen",
+    "description": "Leerzustandsmeldung in meiner Sammlung"
+  },
+  "mokiControl_enableMoki": {
+    "message": "Moki aktivieren",
+    "description": "Beschriftung des Aktivierungsschalters im MokiControl-Menü"
+  },
+  "mokiControl_subtitle": {
+    "message": "Untertitel",
+    "description": "Beschriftung der Untertitel-Option im MokiControl-Menü"
+  },
+  "mokiControl_noSubtitle": {
+    "message": "Keine Untertitel verfügbar",
+    "description": "Meldung wenn keine Untertitel im MokiControl-Untermenü verfügbar sind"
+  },
+  "mokiControl_tooltip_enable": {
+    "message": "Moki-Untertitel aktivieren",
+    "description": "Tooltip wenn MokiControl-Schaltfläche aktiviert werden kann"
+  },
+  "mokiControl_tooltip_disable": {
+    "message": "Moki-Untertitel deaktivieren",
+    "description": "Tooltip wenn MokiControl-Schaltfläche deaktiviert werden kann"
+  },
+  "mokiControl_tooltip_unavailable": {
+    "message": "Keine Untertitel für dieses Video verfügbar",
+    "description": "Tooltip wenn MokiControl-Schaltfläche nicht verfügbar ist"
+  },
+  "mokiControl_tooltip_loading": {
+    "message": "Wird geladen...",
+    "description": "Tooltip wenn MokiControl-Schaltfläche lädt"
+  },
+  "mokiControl_videoLanguage": {
+    "message": "Videosprache",
+    "description": "Bezeichnung für die Originalsprache des Videos im MokiControl-Untermenü"
+  }
+}
