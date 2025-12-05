@@ -262,5 +262,9 @@
   "mokiControl_videoLanguage": {
     "message": "동영상 언어",
     "description": "MokiControl 하위 메뉴의 동영상 원어 레이블"
+  },
+  "mokiControl_showTranslation": {
+    "message": "번역 표시",
+    "description": "MokiControl 메뉴의 번역 표시 토글 라벨"
   }
 }

@@ -262,5 +262,9 @@
   "mokiControl_videoLanguage": {
     "message": "影片語言",
     "description": "MokiControl 語言子選單中影片原語言的標識"
+  },
+  "mokiControl_showTranslation": {
+    "message": "顯示翻譯",
+    "description": "MokiControl 選單中顯示翻譯開關的標籤"
   }
 }

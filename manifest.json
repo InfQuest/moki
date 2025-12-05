@@ -1,7 +1,7 @@
 {
   "name": "Moki: Learning Language in the Youtube",
   "description": "Make anything you watch a language lesson.",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "manifest_version": 3,
   "default_locale": "en",
   "icons": {
@@ -18,14 +18,14 @@
   "content_scripts": [
     {
       "js": [
-        "assets/index.ts-loader-FJL_6adQ.js"
+        "assets/index.ts-loader-BlIWxLMN.js"
       ],
       "matches": [
-        "http://*/*",
-        "https://*/*"
+        "https://www.youtube.com/*",
+        "https://youtube.com/*"
       ],
       "css": [
-        "assets/index-s2gwZOrH.css"
+        "assets/index-DDd5_SkI.css"
       ]
     }
   ],
@@ -39,17 +39,17 @@
     },
     {
       "matches": [
-        "http://*/*",
-        "https://*/*"
+        "https://www.youtube.com/*",
+        "https://youtube.com/*"
       ],
       "resources": [
         "assets/injected.js",
         "_locales/*/messages.json",
-        "assets/chunk-D3AK_sNQ.js",
+        "assets/chunk-B-UrLAwj.js",
         "assets/chunk-CZRYylKx.js",
         "assets/chunk-DwgIagi8.js",
         "assets/chunk-Cpj98o6Y.js",
-        "assets/chunk-BHFMO2uW.js"
+        "assets/chunk-1Y0sDltK.js"
       ],
       "use_dynamic_url": false
     }

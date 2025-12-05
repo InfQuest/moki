@@ -262,5 +262,9 @@
   "mokiControl_videoLanguage": {
     "message": "Video language",
     "description": "Label for video's native language in MokiControl submenu"
+  },
+  "mokiControl_showTranslation": {
+    "message": "Show Translation",
+    "description": "Label for show translation toggle in MokiControl menu"
   }
 }

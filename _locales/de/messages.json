@@ -262,5 +262,9 @@
   "mokiControl_videoLanguage": {
     "message": "Videosprache",
     "description": "Bezeichnung für die Originalsprache des Videos im MokiControl-Untermenü"
+  },
+  "mokiControl_showTranslation": {
+    "message": "Übersetzung anzeigen",
+    "description": "Beschriftung für den Übersetzungsanzeige-Schalter im MokiControl-Menü"
   }
 }

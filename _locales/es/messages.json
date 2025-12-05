@@ -262,5 +262,9 @@
   "mokiControl_videoLanguage": {
     "message": "Idioma del video",
     "description": "Etiqueta para el idioma nativo del video en el submenú de MokiControl"
+  },
+  "mokiControl_showTranslation": {
+    "message": "Mostrar traducción",
+    "description": "Etiqueta para el interruptor de mostrar traducción en el menú MokiControl"
   }
 }

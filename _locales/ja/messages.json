@@ -262,5 +262,9 @@
   "mokiControl_videoLanguage": {
     "message": "動画の言語",
     "description": "MokiControl サブメニューの動画ネイティブ言語ラベル"
+  },
+  "mokiControl_showTranslation": {
+    "message": "翻訳を表示",
+    "description": "MokiControl メニューの翻訳表示トグルラベル"
   }
 }
