@@ -1,8 +1,7 @@
 {
-  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyDOsI/RHx/dEYhA91kqf5Q0BmOh+glZRmpeDz81RVrvl2c4d8fov4sHmG/LAHJkjWRY7789erZGC0m0pFa18VdBbgW+/qHctPh+vZsMtJ0Fbprz28Adiqj8FBNUISm3v49rYsbeAIgHMALmOsmYqkCNSxkqaGrcvPs4ni1etZFCf5a0Z6PgacaIE6MEw3iYxPVYeOWZ3j1kvs4+3cixm3ClsNK0vwxO4NUFZXBn5D8lnGAYhtgWxSNMt+gaJvSo+CGJRFAqozdyJnfkZCL/2wHEsshYET2+KuhZQeXGI8RoTzFhYIryGyQL6xsuhnBbfz9hx8HVPnJ2vpTd/ox7ZYQIDAQAB",
-  "name": "Moki: Learning Language in the Youtube ➡️ Dev",
+  "name": "Moki: Learn Languages on YouTube",
   "description": "Make anything you watch a language lesson.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "manifest_version": 3,
   "default_locale": "en",
   "icons": {
@@ -19,14 +18,14 @@
   "content_scripts": [
     {
       "js": [
-        "assets/index.ts-loader-DLVJmRHg.js"
+        "assets/index.ts-loader-BIlXH8h4.js"
       ],
       "matches": [
         "https://www.youtube.com/*",
         "https://youtube.com/*"
       ],
       "css": [
-        "assets/index-M3_3VTja.css"
+        "assets/index-DjGT5wwA.css"
       ]
     }
   ],
@@ -45,18 +44,12 @@
       ],
       "resources": [
         "assets/injected.js",
-        "assets/injected.js.map",
         "_locales/*/messages.json",
-        "assets/chunk-Idcw88YU.js",
-        "assets/chunk-Idcw88YU.js.map",
-        "assets/chunk-C3txn48e.js",
-        "assets/chunk-C3txn48e.js.map",
-        "assets/chunk-BqxQNjaF.js",
-        "assets/chunk-BqxQNjaF.js.map",
-        "assets/chunk-BD1GsdAo.js",
-        "assets/chunk-BD1GsdAo.js.map",
-        "assets/chunk-Bl4zXF9k.js",
-        "assets/chunk-Bl4zXF9k.js.map"
+        "assets/chunk-DVDiAI92.js",
+        "assets/chunk-CZmiAsfc.js",
+        "assets/chunk-cFAJfbYw.js",
+        "assets/chunk-Cpj98o6Y.js",
+        "assets/chunk-Cuko7doB.js"
       ],
       "use_dynamic_url": false
     }
@@ -67,7 +60,7 @@
     "identity"
   ],
   "host_permissions": [
-    "http://localhost:9999/*",
+    "https://api.mokiedu.com/*",
     "https://static.infquest.com/*"
   ],
   "externally_connectable": {
