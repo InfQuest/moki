@@ -171,6 +171,10 @@
     "message": "Logout",
     "description": "Logout menu item"
   },
+  "loggedIn_openAnkiExport": {
+    "message": "Open Vocab Page",
+    "description": "Tooltip for Anki export button"
+  },
   "settings_title": {
     "message": "Settings",
     "description": "Settings page title"
@@ -266,5 +270,179 @@
   "mokiControl_showTranslation": {
     "message": "Show Translation",
     "description": "Label for show translation toggle in MokiControl menu"
+  },
+  "auth_back": {
+    "message": "Back",
+    "description": "Back button text"
+  },
+  "verification_title": {
+    "message": "Check your email",
+    "description": "Email verification page title"
+  },
+  "verification_description": {
+    "message": "We've sent a verification code to your email. Please enter it below.",
+    "description": "Email verification page description"
+  },
+  "verification_code_placeholder": {
+    "message": "Enter verification code",
+    "description": "Verification code input placeholder"
+  },
+  "verification_verifying": {
+    "message": "Verifying...",
+    "description": "Verification in progress text"
+  },
+  "verification_verify_button": {
+    "message": "Verify Email",
+    "description": "Verify email button text"
+  },
+  "verification_no_code": {
+    "message": "Didn't receive the code?",
+    "description": "No code received text"
+  },
+  "verification_resending": {
+    "message": "Resending...",
+    "description": "Resending verification code text"
+  },
+  "verification_resend_button": {
+    "message": "Resend",
+    "description": "Resend verification code button text"
+  },
+  "verification_resent": {
+    "message": "Verification code resent successfully",
+    "description": "Verification code resent success message"
+  },
+  "verification_resend_countdown": {
+    "message": "Resend in $1",
+    "description": "Resend button text with countdown timer",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1:30"
+      }
+    }
+  },
+  "export_title": {
+    "message": "Export to Anki",
+    "description": "Export page title"
+  },
+  "export_wordCount": {
+    "message": "Words to Export",
+    "description": "Label for word count in export page"
+  },
+  "export_ankiConnectUrl": {
+    "message": "AnkiConnect URL",
+    "description": "Label for AnkiConnect URL input"
+  },
+  "export_checkingConnection": {
+    "message": "Checking connection...",
+    "description": "Status when checking AnkiConnect connection"
+  },
+  "export_ankiConnected": {
+    "message": "Connected to Anki",
+    "description": "Status when connected to AnkiConnect"
+  },
+  "export_ankiDisconnected": {
+    "message": "Not connected to Anki",
+    "description": "Status when not connected to AnkiConnect"
+  },
+  "export_ankiNotConnected": {
+    "message": "Please connect to Anki first",
+    "description": "Error message when trying to export without connection"
+  },
+  "export_failed": {
+    "message": "Export failed",
+    "description": "Error message when export fails"
+  },
+  "export_exporting": {
+    "message": "Exporting...",
+    "description": "Status when export is in progress"
+  },
+  "export_startExport": {
+    "message": "Export to Anki",
+    "description": "Export button text"
+  },
+  "export_helpText": {
+    "message": "Make sure Anki is running with AnkiConnect add-on installed.",
+    "description": "Help text for export page"
+  },
+  "export_refreshConnection": {
+    "message": "Refresh connection",
+    "description": "Tooltip for refresh connection button"
+  },
+  "export_deck": {
+    "message": "Deck",
+    "description": "Label for deck selection"
+  },
+  "export_selectDeck": {
+    "message": "Select a deck",
+    "description": "Placeholder for deck selection dropdown"
+  },
+  "export_noteType": {
+    "message": "Note Type",
+    "description": "Label for note type selection"
+  },
+  "export_selectNoteType": {
+    "message": "Select a note type",
+    "description": "Placeholder for note type selection dropdown"
+  },
+  "export_fieldMapping": {
+    "message": "Field Mapping",
+    "description": "Label for field mapping section"
+  },
+  "export_loadingFields": {
+    "message": "Loading fields...",
+    "description": "Loading text for field mapping"
+  },
+  "export_mediaOptions": {
+    "message": "Media Options",
+    "description": "Label for media options section"
+  },
+  "export_includeAudio": {
+    "message": "Include audio",
+    "description": "Checkbox label for including audio"
+  },
+  "export_includeImage": {
+    "message": "Include screenshot",
+    "description": "Checkbox label for including image"
+  },
+  "export_tags": {
+    "message": "Tags",
+    "description": "Label for tags input"
+  },
+  "export_tagsHint": {
+    "message": "Separate tags with commas",
+    "description": "Hint text for tags input"
+  },
+  "export_noDeckSelected": {
+    "message": "Please select a deck",
+    "description": "Error message when no deck is selected"
+  },
+  "export_noModelSelected": {
+    "message": "Please select a note type",
+    "description": "Error message when no note type is selected"
+  },
+  "export_createRecommendedTemplate": {
+    "message": "+ Create Moki Vocabulary template",
+    "description": "Button to create recommended Moki note type"
+  },
+  "export_creatingTemplate": {
+    "message": "Creating template...",
+    "description": "Status when creating template"
+  },
+  "export_createTemplateFailed": {
+    "message": "Failed to create template",
+    "description": "Error message when template creation fails"
+  },
+  "export_fetchingData": {
+    "message": "Fetching data...",
+    "description": "Status when fetching collection data"
+  },
+  "export_exportingToAnki": {
+    "message": "Exporting to Anki...",
+    "description": "Status when exporting notes to Anki"
+  },
+  "export_allFailed": {
+    "message": "All notes failed to export",
+    "description": "Error message when all notes failed to export"
   }
 }

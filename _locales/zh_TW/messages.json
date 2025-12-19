@@ -171,6 +171,10 @@
     "message": "登出",
     "description": "登出選單項"
   },
+  "loggedIn_openAnkiExport": {
+    "message": "開啟詞彙頁面",
+    "description": "Anki匯出按鈕提示"
+  },
   "settings_title": {
     "message": "設定",
     "description": "設定頁面標題"
@@ -266,5 +270,179 @@
   "mokiControl_showTranslation": {
     "message": "顯示翻譯",
     "description": "MokiControl 選單中顯示翻譯開關的標籤"
+  },
+  "auth_back": {
+    "message": "返回",
+    "description": "返回按鈕文字"
+  },
+  "verification_title": {
+    "message": "檢查你的電子郵件",
+    "description": "電子郵件驗證頁面標題"
+  },
+  "verification_description": {
+    "message": "我們已向你的電子郵件發送了驗證碼，請在下方輸入。",
+    "description": "電子郵件驗證頁面描述"
+  },
+  "verification_code_placeholder": {
+    "message": "輸入驗證碼",
+    "description": "驗證碼輸入框佔位符"
+  },
+  "verification_verifying": {
+    "message": "驗證中...",
+    "description": "正在驗證的狀態文字"
+  },
+  "verification_verify_button": {
+    "message": "驗證電子郵件",
+    "description": "驗證電子郵件按鈕文字"
+  },
+  "verification_no_code": {
+    "message": "沒有收到驗證碼？",
+    "description": "未收到驗證碼提示文字"
+  },
+  "verification_resending": {
+    "message": "正在重新發送...",
+    "description": "正在重新發送驗證碼的狀態文字"
+  },
+  "verification_resend_button": {
+    "message": "重新發送",
+    "description": "重新發送驗證碼按鈕文字"
+  },
+  "verification_resent": {
+    "message": "驗證碼已重新發送",
+    "description": "驗證碼重新發送成功的提示"
+  },
+  "verification_resend_countdown": {
+    "message": "$1 後重發",
+    "description": "帶倒計時的重發按鈕文字",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1:30"
+      }
+    }
+  },
+  "export_title": {
+    "message": "匯出到 Anki",
+    "description": "匯出頁面標題"
+  },
+  "export_wordCount": {
+    "message": "待匯出單字數",
+    "description": "匯出頁面單字數量標籤"
+  },
+  "export_ankiConnectUrl": {
+    "message": "AnkiConnect 網址",
+    "description": "AnkiConnect URL 輸入框標籤"
+  },
+  "export_checkingConnection": {
+    "message": "正在檢查連線...",
+    "description": "檢查 AnkiConnect 連線時的狀態"
+  },
+  "export_ankiConnected": {
+    "message": "已連線到 Anki",
+    "description": "已連線到 AnkiConnect 時的狀態"
+  },
+  "export_ankiDisconnected": {
+    "message": "未連線到 Anki",
+    "description": "未連線到 AnkiConnect 時的狀態"
+  },
+  "export_ankiNotConnected": {
+    "message": "請先連線到 Anki",
+    "description": "未連線時嘗試匯出的錯誤提示"
+  },
+  "export_failed": {
+    "message": "匯出失敗",
+    "description": "匯出失敗時的錯誤提示"
+  },
+  "export_exporting": {
+    "message": "正在匯出...",
+    "description": "匯出進行中的狀態"
+  },
+  "export_startExport": {
+    "message": "匯出到 Anki",
+    "description": "匯出按鈕文字"
+  },
+  "export_helpText": {
+    "message": "請確保 Anki 正在執行，並已安裝 AnkiConnect 外掛。",
+    "description": "匯出頁面說明文字"
+  },
+  "export_refreshConnection": {
+    "message": "重新整理連線",
+    "description": "重新整理連線按鈕提示"
+  },
+  "export_deck": {
+    "message": "牌組",
+    "description": "牌組選擇標籤"
+  },
+  "export_selectDeck": {
+    "message": "選擇牌組",
+    "description": "牌組選擇下拉選單佔位符"
+  },
+  "export_noteType": {
+    "message": "筆記類型",
+    "description": "筆記類型選擇標籤"
+  },
+  "export_selectNoteType": {
+    "message": "選擇筆記類型",
+    "description": "筆記類型選擇下拉選單佔位符"
+  },
+  "export_fieldMapping": {
+    "message": "欄位對應",
+    "description": "欄位對應區域標籤"
+  },
+  "export_loadingFields": {
+    "message": "載入欄位中...",
+    "description": "欄位對應載入中文字"
+  },
+  "export_mediaOptions": {
+    "message": "媒體選項",
+    "description": "媒體選項區域標籤"
+  },
+  "export_includeAudio": {
+    "message": "包含音訊",
+    "description": "包含音訊核取方塊標籤"
+  },
+  "export_includeImage": {
+    "message": "包含螢幕截圖",
+    "description": "包含截圖核取方塊標籤"
+  },
+  "export_tags": {
+    "message": "標籤",
+    "description": "標籤輸入欄標籤"
+  },
+  "export_tagsHint": {
+    "message": "多個標籤用逗號分隔",
+    "description": "標籤輸入欄提示文字"
+  },
+  "export_noDeckSelected": {
+    "message": "請選擇牌組",
+    "description": "未選擇牌組時的錯誤訊息"
+  },
+  "export_noModelSelected": {
+    "message": "請選擇筆記類型",
+    "description": "未選擇筆記類型時的錯誤訊息"
+  },
+  "export_createRecommendedTemplate": {
+    "message": "+ 建立 Moki Vocabulary 範本",
+    "description": "建立推薦的 Moki 筆記類型按鈕"
+  },
+  "export_creatingTemplate": {
+    "message": "正在建立範本...",
+    "description": "建立範本時的狀態"
+  },
+  "export_createTemplateFailed": {
+    "message": "建立範本失敗",
+    "description": "建立範本失敗時的錯誤訊息"
+  },
+  "export_fetchingData": {
+    "message": "正在取得資料...",
+    "description": "取得收藏資料時的狀態"
+  },
+  "export_exportingToAnki": {
+    "message": "正在匯出到 Anki...",
+    "description": "匯出筆記到 Anki 時的狀態"
+  },
+  "export_allFailed": {
+    "message": "所有筆記匯出失敗",
+    "description": "所有筆記匯出失敗時的錯誤訊息"
   }
 }

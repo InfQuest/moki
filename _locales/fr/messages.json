@@ -171,6 +171,10 @@
     "message": "Déconnexion",
     "description": "Élément de menu de déconnexion"
   },
+  "loggedIn_openAnkiExport": {
+    "message": "Ouvrir la page de vocabulaire",
+    "description": "Info-bulle du bouton d'exportation Anki"
+  },
   "settings_title": {
     "message": "Paramètres",
     "description": "Titre de la page de paramètres"
@@ -266,5 +270,179 @@
   "mokiControl_showTranslation": {
     "message": "Afficher la traduction",
     "description": "Libellé pour le bouton d'affichage de la traduction dans le menu MokiControl"
+  },
+  "auth_back": {
+    "message": "Retour",
+    "description": "Texte du bouton retour"
+  },
+  "verification_title": {
+    "message": "Vérifiez votre e-mail",
+    "description": "Titre de la page de vérification d'e-mail"
+  },
+  "verification_description": {
+    "message": "Nous vous avons envoyé un code de vérification. Veuillez le saisir ci-dessous.",
+    "description": "Description de la page de vérification d'e-mail"
+  },
+  "verification_code_placeholder": {
+    "message": "Entrez le code de vérification",
+    "description": "Texte indicatif du champ de code de vérification"
+  },
+  "verification_verifying": {
+    "message": "Vérification...",
+    "description": "Texte de vérification en cours"
+  },
+  "verification_verify_button": {
+    "message": "Vérifier l'e-mail",
+    "description": "Texte du bouton de vérification d'e-mail"
+  },
+  "verification_no_code": {
+    "message": "Vous n'avez pas reçu le code ?",
+    "description": "Texte de code non reçu"
+  },
+  "verification_resending": {
+    "message": "Renvoi en cours...",
+    "description": "Texte de renvoi du code de vérification"
+  },
+  "verification_resend_button": {
+    "message": "Renvoyer",
+    "description": "Texte du bouton de renvoi du code de vérification"
+  },
+  "verification_resent": {
+    "message": "Code de vérification renvoyé avec succès",
+    "description": "Message de succès du renvoi du code de vérification"
+  },
+  "verification_resend_countdown": {
+    "message": "Renvoyer dans $1",
+    "description": "Texte du bouton de renvoi avec compte à rebours",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1:30"
+      }
+    }
+  },
+  "export_title": {
+    "message": "Exporter vers Anki",
+    "description": "Titre de la page d'exportation"
+  },
+  "export_wordCount": {
+    "message": "Mots à exporter",
+    "description": "Étiquette du nombre de mots sur la page d'exportation"
+  },
+  "export_ankiConnectUrl": {
+    "message": "URL AnkiConnect",
+    "description": "Étiquette du champ URL AnkiConnect"
+  },
+  "export_checkingConnection": {
+    "message": "Vérification de la connexion...",
+    "description": "État lors de la vérification de la connexion AnkiConnect"
+  },
+  "export_ankiConnected": {
+    "message": "Connecté à Anki",
+    "description": "État lorsque connecté à AnkiConnect"
+  },
+  "export_ankiDisconnected": {
+    "message": "Non connecté à Anki",
+    "description": "État lorsque non connecté à AnkiConnect"
+  },
+  "export_ankiNotConnected": {
+    "message": "Veuillez d'abord vous connecter à Anki",
+    "description": "Message d'erreur lors d'une tentative d'exportation sans connexion"
+  },
+  "export_failed": {
+    "message": "Échec de l'exportation",
+    "description": "Message d'erreur lorsque l'exportation échoue"
+  },
+  "export_exporting": {
+    "message": "Exportation en cours...",
+    "description": "État lorsque l'exportation est en cours"
+  },
+  "export_startExport": {
+    "message": "Exporter vers Anki",
+    "description": "Texte du bouton d'exportation"
+  },
+  "export_helpText": {
+    "message": "Assurez-vous qu'Anki est en cours d'exécution avec l'extension AnkiConnect installée.",
+    "description": "Texte d'aide de la page d'exportation"
+  },
+  "export_refreshConnection": {
+    "message": "Actualiser la connexion",
+    "description": "Info-bulle du bouton d'actualisation"
+  },
+  "export_deck": {
+    "message": "Paquet",
+    "description": "Libellé de sélection du paquet"
+  },
+  "export_selectDeck": {
+    "message": "Sélectionner un paquet",
+    "description": "Texte indicatif du menu déroulant de paquets"
+  },
+  "export_noteType": {
+    "message": "Type de note",
+    "description": "Libellé de sélection du type de note"
+  },
+  "export_selectNoteType": {
+    "message": "Sélectionner un type de note",
+    "description": "Texte indicatif du menu déroulant de types de note"
+  },
+  "export_fieldMapping": {
+    "message": "Mappage des champs",
+    "description": "Libellé de la section de mappage des champs"
+  },
+  "export_loadingFields": {
+    "message": "Chargement des champs...",
+    "description": "Texte de chargement du mappage des champs"
+  },
+  "export_mediaOptions": {
+    "message": "Options média",
+    "description": "Libellé de la section des options média"
+  },
+  "export_includeAudio": {
+    "message": "Inclure l'audio",
+    "description": "Libellé de la case à cocher pour inclure l'audio"
+  },
+  "export_includeImage": {
+    "message": "Inclure la capture d'écran",
+    "description": "Libellé de la case à cocher pour inclure l'image"
+  },
+  "export_tags": {
+    "message": "Étiquettes",
+    "description": "Libellé du champ d'étiquettes"
+  },
+  "export_tagsHint": {
+    "message": "Séparez les étiquettes par des virgules",
+    "description": "Texte d'aide du champ d'étiquettes"
+  },
+  "export_noDeckSelected": {
+    "message": "Veuillez sélectionner un paquet",
+    "description": "Message d'erreur lorsqu'aucun paquet n'est sélectionné"
+  },
+  "export_noModelSelected": {
+    "message": "Veuillez sélectionner un type de note",
+    "description": "Message d'erreur lorsqu'aucun type de note n'est sélectionné"
+  },
+  "export_createRecommendedTemplate": {
+    "message": "+ Créer le modèle Moki Vocabulary",
+    "description": "Bouton pour créer le type de note Moki recommandé"
+  },
+  "export_creatingTemplate": {
+    "message": "Création du modèle...",
+    "description": "Statut lors de la création du modèle"
+  },
+  "export_createTemplateFailed": {
+    "message": "Échec de la création du modèle",
+    "description": "Message d'erreur lorsque la création du modèle échoue"
+  },
+  "export_fetchingData": {
+    "message": "Récupération des données...",
+    "description": "Statut lors de la récupération des données de collection"
+  },
+  "export_exportingToAnki": {
+    "message": "Exportation vers Anki...",
+    "description": "Statut lors de l'exportation des notes vers Anki"
+  },
+  "export_allFailed": {
+    "message": "Échec de l'exportation de toutes les notes",
+    "description": "Message d'erreur lorsque toutes les notes échouent à s'exporter"
   }
 }

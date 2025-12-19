@@ -171,6 +171,10 @@
     "message": "로그아웃",
     "description": "로그아웃 메뉴 항목"
   },
+  "loggedIn_openAnkiExport": {
+    "message": "단어 페이지 열기",
+    "description": "Anki 내보내기 버튼 툴팁"
+  },
   "settings_title": {
     "message": "설정",
     "description": "설정 페이지 제목"
@@ -266,5 +270,179 @@
   "mokiControl_showTranslation": {
     "message": "번역 표시",
     "description": "MokiControl 메뉴의 번역 표시 토글 라벨"
+  },
+  "auth_back": {
+    "message": "뒤로",
+    "description": "뒤로 버튼 텍스트"
+  },
+  "verification_title": {
+    "message": "이메일을 확인하세요",
+    "description": "이메일 인증 페이지 제목"
+  },
+  "verification_description": {
+    "message": "인증 코드를 이메일로 보냈습니다. 아래에 입력해 주세요.",
+    "description": "이메일 인증 페이지 설명"
+  },
+  "verification_code_placeholder": {
+    "message": "인증 코드 입력",
+    "description": "인증 코드 입력란 플레이스홀더"
+  },
+  "verification_verifying": {
+    "message": "인증 중...",
+    "description": "인증 진행 중 텍스트"
+  },
+  "verification_verify_button": {
+    "message": "이메일 인증",
+    "description": "이메일 인증 버튼 텍스트"
+  },
+  "verification_no_code": {
+    "message": "코드를 받지 못하셨나요?",
+    "description": "코드 미수신 텍스트"
+  },
+  "verification_resending": {
+    "message": "재전송 중...",
+    "description": "인증 코드 재전송 중 텍스트"
+  },
+  "verification_resend_button": {
+    "message": "재전송",
+    "description": "인증 코드 재전송 버튼 텍스트"
+  },
+  "verification_resent": {
+    "message": "인증 코드가 재전송되었습니다",
+    "description": "인증 코드 재전송 성공 메시지"
+  },
+  "verification_resend_countdown": {
+    "message": "$1 후 재전송",
+    "description": "카운트다운이 있는 재전송 버튼 텍스트",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1:30"
+      }
+    }
+  },
+  "export_title": {
+    "message": "Anki로 내보내기",
+    "description": "내보내기 페이지 제목"
+  },
+  "export_wordCount": {
+    "message": "내보낼 단어 수",
+    "description": "내보내기 페이지 단어 수 레이블"
+  },
+  "export_ankiConnectUrl": {
+    "message": "AnkiConnect URL",
+    "description": "AnkiConnect URL 입력 필드 레이블"
+  },
+  "export_checkingConnection": {
+    "message": "연결 확인 중...",
+    "description": "AnkiConnect 연결 확인 중 상태"
+  },
+  "export_ankiConnected": {
+    "message": "Anki에 연결됨",
+    "description": "AnkiConnect 연결됨 상태"
+  },
+  "export_ankiDisconnected": {
+    "message": "Anki에 연결되지 않음",
+    "description": "AnkiConnect 연결 안됨 상태"
+  },
+  "export_ankiNotConnected": {
+    "message": "먼저 Anki에 연결하세요",
+    "description": "연결 안됨 상태에서 내보내기 시도 시 오류 메시지"
+  },
+  "export_failed": {
+    "message": "내보내기 실패",
+    "description": "내보내기 실패 시 오류 메시지"
+  },
+  "export_exporting": {
+    "message": "내보내는 중...",
+    "description": "내보내기 진행 중 상태"
+  },
+  "export_startExport": {
+    "message": "Anki로 내보내기",
+    "description": "내보내기 버튼 텍스트"
+  },
+  "export_helpText": {
+    "message": "Anki가 실행 중이고 AnkiConnect 애드온이 설치되어 있는지 확인하세요.",
+    "description": "내보내기 페이지 도움말 텍스트"
+  },
+  "export_refreshConnection": {
+    "message": "연결 새로고침",
+    "description": "연결 새로고침 버튼 툴팁"
+  },
+  "export_deck": {
+    "message": "덱",
+    "description": "덱 선택 레이블"
+  },
+  "export_selectDeck": {
+    "message": "덱 선택",
+    "description": "덱 선택 드롭다운 플레이스홀더"
+  },
+  "export_noteType": {
+    "message": "노트 유형",
+    "description": "노트 유형 선택 레이블"
+  },
+  "export_selectNoteType": {
+    "message": "노트 유형 선택",
+    "description": "노트 유형 선택 드롭다운 플레이스홀더"
+  },
+  "export_fieldMapping": {
+    "message": "필드 매핑",
+    "description": "필드 매핑 섹션 레이블"
+  },
+  "export_loadingFields": {
+    "message": "필드 로드 중...",
+    "description": "필드 매핑 로드 중 텍스트"
+  },
+  "export_mediaOptions": {
+    "message": "미디어 옵션",
+    "description": "미디어 옵션 섹션 레이블"
+  },
+  "export_includeAudio": {
+    "message": "오디오 포함",
+    "description": "오디오 포함 체크박스 레이블"
+  },
+  "export_includeImage": {
+    "message": "스크린샷 포함",
+    "description": "이미지 포함 체크박스 레이블"
+  },
+  "export_tags": {
+    "message": "태그",
+    "description": "태그 입력 레이블"
+  },
+  "export_tagsHint": {
+    "message": "쉼표로 태그 구분",
+    "description": "태그 입력 힌트 텍스트"
+  },
+  "export_noDeckSelected": {
+    "message": "덱을 선택하세요",
+    "description": "덱 미선택 시 에러 메시지"
+  },
+  "export_noModelSelected": {
+    "message": "노트 유형을 선택하세요",
+    "description": "노트 유형 미선택 시 에러 메시지"
+  },
+  "export_createRecommendedTemplate": {
+    "message": "+ Moki Vocabulary 템플릿 만들기",
+    "description": "권장 Moki 노트 유형 만들기 버튼"
+  },
+  "export_creatingTemplate": {
+    "message": "템플릿 만드는 중...",
+    "description": "템플릿 만들기 진행 중 상태"
+  },
+  "export_createTemplateFailed": {
+    "message": "템플릿 만들기 실패",
+    "description": "템플릿 만들기 실패 시 에러 메시지"
+  },
+  "export_fetchingData": {
+    "message": "데이터 가져오는 중...",
+    "description": "컬렉션 데이터를 가져오는 중 상태"
+  },
+  "export_exportingToAnki": {
+    "message": "Anki로 내보내는 중...",
+    "description": "Anki로 노트를 내보내는 중 상태"
+  },
+  "export_allFailed": {
+    "message": "모든 노트 내보내기 실패",
+    "description": "모든 노트 내보내기 실패 시 에러 메시지"
   }
 }

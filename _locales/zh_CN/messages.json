@@ -171,6 +171,10 @@
     "message": "退出登录",
     "description": "退出登录菜单项"
   },
+  "loggedIn_openAnkiExport": {
+    "message": "打开词汇页面",
+    "description": "Anki导出按钮提示"
+  },
   "settings_title": {
     "message": "设置",
     "description": "设置页面标题"
@@ -266,5 +270,179 @@
   "mokiControl_showTranslation": {
     "message": "显示翻译",
     "description": "MokiControl 菜单中显示翻译开关的标签"
+  },
+  "auth_back": {
+    "message": "返回",
+    "description": "返回按钮文本"
+  },
+  "verification_title": {
+    "message": "检查你的邮箱",
+    "description": "邮箱验证页面标题"
+  },
+  "verification_description": {
+    "message": "我们已向你的邮箱发送了验证码，请在下方输入。",
+    "description": "邮箱验证页面描述"
+  },
+  "verification_code_placeholder": {
+    "message": "输入验证码",
+    "description": "验证码输入框占位符"
+  },
+  "verification_verifying": {
+    "message": "验证中...",
+    "description": "正在验证的状态文本"
+  },
+  "verification_verify_button": {
+    "message": "验证邮箱",
+    "description": "验证邮箱按钮文本"
+  },
+  "verification_no_code": {
+    "message": "没有收到验证码？",
+    "description": "未收到验证码提示文本"
+  },
+  "verification_resending": {
+    "message": "正在重新发送...",
+    "description": "正在重新发送验证码的状态文本"
+  },
+  "verification_resend_button": {
+    "message": "重新发送",
+    "description": "重新发送验证码按钮文本"
+  },
+  "verification_resent": {
+    "message": "验证码已重新发送",
+    "description": "验证码重新发送成功的提示"
+  },
+  "verification_resend_countdown": {
+    "message": "$1 后重发",
+    "description": "带倒计时的重发按钮文本",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1:30"
+      }
+    }
+  },
+  "export_title": {
+    "message": "导出到 Anki",
+    "description": "导出页面标题"
+  },
+  "export_wordCount": {
+    "message": "待导出单词数",
+    "description": "导出页面单词数量标签"
+  },
+  "export_ankiConnectUrl": {
+    "message": "AnkiConnect 地址",
+    "description": "AnkiConnect URL 输入框标签"
+  },
+  "export_checkingConnection": {
+    "message": "正在检查连接...",
+    "description": "检查 AnkiConnect 连接时的状态"
+  },
+  "export_ankiConnected": {
+    "message": "已连接到 Anki",
+    "description": "已连接到 AnkiConnect 时的状态"
+  },
+  "export_ankiDisconnected": {
+    "message": "未连接到 Anki",
+    "description": "未连接到 AnkiConnect 时的状态"
+  },
+  "export_ankiNotConnected": {
+    "message": "请先连接到 Anki",
+    "description": "未连接时尝试导出的错误提示"
+  },
+  "export_failed": {
+    "message": "导出失败",
+    "description": "导出失败时的错误提示"
+  },
+  "export_exporting": {
+    "message": "正在导出...",
+    "description": "导出进行中的状态"
+  },
+  "export_startExport": {
+    "message": "导出到 Anki",
+    "description": "导出按钮文本"
+  },
+  "export_helpText": {
+    "message": "请确保 Anki 正在运行，并已安装 AnkiConnect 插件。",
+    "description": "导出页面帮助文本"
+  },
+  "export_refreshConnection": {
+    "message": "刷新连接",
+    "description": "刷新连接按钮提示"
+  },
+  "export_deck": {
+    "message": "牌组",
+    "description": "牌组选择标签"
+  },
+  "export_selectDeck": {
+    "message": "选择牌组",
+    "description": "牌组选择下拉框占位符"
+  },
+  "export_noteType": {
+    "message": "笔记类型",
+    "description": "笔记类型选择标签"
+  },
+  "export_selectNoteType": {
+    "message": "选择笔记类型",
+    "description": "笔记类型选择下拉框占位符"
+  },
+  "export_fieldMapping": {
+    "message": "字段映射",
+    "description": "字段映射区域标签"
+  },
+  "export_loadingFields": {
+    "message": "加载字段中...",
+    "description": "字段映射加载中文本"
+  },
+  "export_mediaOptions": {
+    "message": "媒体选项",
+    "description": "媒体选项区域标签"
+  },
+  "export_includeAudio": {
+    "message": "包含音频",
+    "description": "包含音频复选框标签"
+  },
+  "export_includeImage": {
+    "message": "包含截图",
+    "description": "包含截图复选框标签"
+  },
+  "export_tags": {
+    "message": "标签",
+    "description": "标签输入框标签"
+  },
+  "export_tagsHint": {
+    "message": "多个标签用逗号分隔",
+    "description": "标签输入框提示文本"
+  },
+  "export_noDeckSelected": {
+    "message": "请选择牌组",
+    "description": "未选择牌组时的错误消息"
+  },
+  "export_noModelSelected": {
+    "message": "请选择笔记类型",
+    "description": "未选择笔记类型时的错误消息"
+  },
+  "export_createRecommendedTemplate": {
+    "message": "+ 创建 Moki Vocabulary 模板",
+    "description": "创建推荐的 Moki 笔记类型按钮"
+  },
+  "export_creatingTemplate": {
+    "message": "正在创建模板...",
+    "description": "创建模板时的状态"
+  },
+  "export_createTemplateFailed": {
+    "message": "创建模板失败",
+    "description": "创建模板失败时的错误消息"
+  },
+  "export_fetchingData": {
+    "message": "正在获取数据...",
+    "description": "获取收藏数据时的状态"
+  },
+  "export_exportingToAnki": {
+    "message": "正在导出到 Anki...",
+    "description": "导出笔记到 Anki 时的状态"
+  },
+  "export_allFailed": {
+    "message": "所有笔记导出失败",
+    "description": "所有笔记导出失败时的错误消息"
   }
 }

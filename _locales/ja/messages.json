@@ -171,6 +171,10 @@
     "message": "ログアウト",
     "description": "ログアウトメニュー項目"
   },
+  "loggedIn_openAnkiExport": {
+    "message": "単語ページを開く",
+    "description": "Ankiエクスポートボタンのツールチップ"
+  },
   "settings_title": {
     "message": "設定",
     "description": "設定ページのタイトル"
@@ -266,5 +270,179 @@
   "mokiControl_showTranslation": {
     "message": "翻訳を表示",
     "description": "MokiControl メニューの翻訳表示トグルラベル"
+  },
+  "auth_back": {
+    "message": "戻る",
+    "description": "戻るボタンのテキスト"
+  },
+  "verification_title": {
+    "message": "メールを確認してください",
+    "description": "メール認証ページのタイトル"
+  },
+  "verification_description": {
+    "message": "認証コードをメールで送信しました。以下に入力してください。",
+    "description": "メール認証ページの説明"
+  },
+  "verification_code_placeholder": {
+    "message": "認証コードを入力",
+    "description": "認証コード入力欄のプレースホルダー"
+  },
+  "verification_verifying": {
+    "message": "認証中...",
+    "description": "認証処理中のテキスト"
+  },
+  "verification_verify_button": {
+    "message": "メールを認証",
+    "description": "メール認証ボタンのテキスト"
+  },
+  "verification_no_code": {
+    "message": "コードが届きませんか？",
+    "description": "コード未受信時のテキスト"
+  },
+  "verification_resending": {
+    "message": "再送信中...",
+    "description": "認証コード再送信中のテキスト"
+  },
+  "verification_resend_button": {
+    "message": "再送信",
+    "description": "認証コード再送信ボタンのテキスト"
+  },
+  "verification_resent": {
+    "message": "認証コードを再送信しました",
+    "description": "認証コード再送信成功メッセージ"
+  },
+  "verification_resend_countdown": {
+    "message": "$1 後に再送信",
+    "description": "カウントダウン付きの再送信ボタンテキスト",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1:30"
+      }
+    }
+  },
+  "export_title": {
+    "message": "Anki にエクスポート",
+    "description": "エクスポートページのタイトル"
+  },
+  "export_wordCount": {
+    "message": "エクスポートする単語数",
+    "description": "エクスポートページの単語数ラベル"
+  },
+  "export_ankiConnectUrl": {
+    "message": "AnkiConnect URL",
+    "description": "AnkiConnect URL 入力欄のラベル"
+  },
+  "export_checkingConnection": {
+    "message": "接続を確認中...",
+    "description": "AnkiConnect 接続確認中のステータス"
+  },
+  "export_ankiConnected": {
+    "message": "Anki に接続しました",
+    "description": "AnkiConnect 接続済みのステータス"
+  },
+  "export_ankiDisconnected": {
+    "message": "Anki に接続していません",
+    "description": "AnkiConnect 未接続のステータス"
+  },
+  "export_ankiNotConnected": {
+    "message": "先に Anki に接続してください",
+    "description": "未接続時のエクスポートエラーメッセージ"
+  },
+  "export_failed": {
+    "message": "エクスポートに失敗しました",
+    "description": "エクスポート失敗時のエラーメッセージ"
+  },
+  "export_exporting": {
+    "message": "エクスポート中...",
+    "description": "エクスポート進行中のステータス"
+  },
+  "export_startExport": {
+    "message": "Anki にエクスポート",
+    "description": "エクスポートボタンのテキスト"
+  },
+  "export_helpText": {
+    "message": "Anki が起動していて、AnkiConnect アドオンがインストールされていることを確認してください。",
+    "description": "エクスポートページのヘルプテキスト"
+  },
+  "export_refreshConnection": {
+    "message": "接続を更新",
+    "description": "接続更新ボタンのツールチップ"
+  },
+  "export_deck": {
+    "message": "デッキ",
+    "description": "デッキ選択のラベル"
+  },
+  "export_selectDeck": {
+    "message": "デッキを選択",
+    "description": "デッキ選択ドロップダウンのプレースホルダー"
+  },
+  "export_noteType": {
+    "message": "ノートタイプ",
+    "description": "ノートタイプ選択のラベル"
+  },
+  "export_selectNoteType": {
+    "message": "ノートタイプを選択",
+    "description": "ノートタイプ選択ドロップダウンのプレースホルダー"
+  },
+  "export_fieldMapping": {
+    "message": "フィールドマッピング",
+    "description": "フィールドマッピングセクションのラベル"
+  },
+  "export_loadingFields": {
+    "message": "フィールドを読み込み中...",
+    "description": "フィールドマッピングの読み込み中テキスト"
+  },
+  "export_mediaOptions": {
+    "message": "メディアオプション",
+    "description": "メディアオプションセクションのラベル"
+  },
+  "export_includeAudio": {
+    "message": "音声を含める",
+    "description": "音声を含めるチェックボックスのラベル"
+  },
+  "export_includeImage": {
+    "message": "スクリーンショットを含める",
+    "description": "画像を含めるチェックボックスのラベル"
+  },
+  "export_tags": {
+    "message": "タグ",
+    "description": "タグ入力のラベル"
+  },
+  "export_tagsHint": {
+    "message": "複数のタグはカンマで区切ってください",
+    "description": "タグ入力のヒントテキスト"
+  },
+  "export_noDeckSelected": {
+    "message": "デッキを選択してください",
+    "description": "デッキが選択されていない場合のエラーメッセージ"
+  },
+  "export_noModelSelected": {
+    "message": "ノートタイプを選択してください",
+    "description": "ノートタイプが選択されていない場合のエラーメッセージ"
+  },
+  "export_createRecommendedTemplate": {
+    "message": "+ Moki Vocabulary テンプレートを作成",
+    "description": "推奨の Moki ノートタイプを作成するボタン"
+  },
+  "export_creatingTemplate": {
+    "message": "テンプレートを作成中...",
+    "description": "テンプレート作成中のステータス"
+  },
+  "export_createTemplateFailed": {
+    "message": "テンプレートの作成に失敗しました",
+    "description": "テンプレート作成失敗時のエラーメッセージ"
+  },
+  "export_fetchingData": {
+    "message": "データを取得中...",
+    "description": "コレクションデータを取得中のステータス"
+  },
+  "export_exportingToAnki": {
+    "message": "Ankiにエクスポート中...",
+    "description": "Ankiにノートをエクスポート中のステータス"
+  },
+  "export_allFailed": {
+    "message": "すべてのノートのエクスポートに失敗しました",
+    "description": "すべてのノートのエクスポートに失敗した場合のエラーメッセージ"
   }
 }

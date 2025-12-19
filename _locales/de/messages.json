@@ -171,6 +171,10 @@
     "message": "Abmelden",
     "description": "Abmelden Menüpunkt"
   },
+  "loggedIn_openAnkiExport": {
+    "message": "Vokabelseite öffnen",
+    "description": "Tooltip für Anki-Export-Button"
+  },
   "settings_title": {
     "message": "Einstellungen",
     "description": "Einstellungsseitentitel"
@@ -266,5 +270,179 @@
   "mokiControl_showTranslation": {
     "message": "Übersetzung anzeigen",
     "description": "Beschriftung für den Übersetzungsanzeige-Schalter im MokiControl-Menü"
+  },
+  "auth_back": {
+    "message": "Zurück",
+    "description": "Text der Zurück-Schaltfläche"
+  },
+  "verification_title": {
+    "message": "Überprüfen Sie Ihre E-Mail",
+    "description": "Titel der E-Mail-Verifizierungsseite"
+  },
+  "verification_description": {
+    "message": "Wir haben Ihnen einen Verifizierungscode gesendet. Bitte geben Sie ihn unten ein.",
+    "description": "Beschreibung der E-Mail-Verifizierungsseite"
+  },
+  "verification_code_placeholder": {
+    "message": "Verifizierungscode eingeben",
+    "description": "Platzhalter für das Verifizierungscode-Feld"
+  },
+  "verification_verifying": {
+    "message": "Wird verifiziert...",
+    "description": "Text während der Verifizierung"
+  },
+  "verification_verify_button": {
+    "message": "E-Mail verifizieren",
+    "description": "Text der E-Mail-Verifizierungsschaltfläche"
+  },
+  "verification_no_code": {
+    "message": "Keinen Code erhalten?",
+    "description": "Text bei nicht erhaltenem Code"
+  },
+  "verification_resending": {
+    "message": "Wird erneut gesendet...",
+    "description": "Text beim erneuten Senden des Verifizierungscodes"
+  },
+  "verification_resend_button": {
+    "message": "Erneut senden",
+    "description": "Text der Schaltfläche zum erneuten Senden des Verifizierungscodes"
+  },
+  "verification_resent": {
+    "message": "Verifizierungscode erfolgreich erneut gesendet",
+    "description": "Erfolgsmeldung beim erneuten Senden des Verifizierungscodes"
+  },
+  "verification_resend_countdown": {
+    "message": "Erneut senden in $1",
+    "description": "Text der Schaltfläche zum erneuten Senden mit Countdown",
+    "placeholders": {
+      "1": {
+        "content": "$1",
+        "example": "1:30"
+      }
+    }
+  },
+  "export_title": {
+    "message": "Nach Anki exportieren",
+    "description": "Titel der Exportseite"
+  },
+  "export_wordCount": {
+    "message": "Zu exportierende Wörter",
+    "description": "Beschriftung der Wortanzahl auf der Exportseite"
+  },
+  "export_ankiConnectUrl": {
+    "message": "AnkiConnect URL",
+    "description": "Beschriftung des AnkiConnect URL-Eingabefelds"
+  },
+  "export_checkingConnection": {
+    "message": "Verbindung wird überprüft...",
+    "description": "Status beim Überprüfen der AnkiConnect-Verbindung"
+  },
+  "export_ankiConnected": {
+    "message": "Mit Anki verbunden",
+    "description": "Status bei bestehender AnkiConnect-Verbindung"
+  },
+  "export_ankiDisconnected": {
+    "message": "Nicht mit Anki verbunden",
+    "description": "Status bei fehlender AnkiConnect-Verbindung"
+  },
+  "export_ankiNotConnected": {
+    "message": "Bitte zuerst mit Anki verbinden",
+    "description": "Fehlermeldung beim Exportversuch ohne Verbindung"
+  },
+  "export_failed": {
+    "message": "Export fehlgeschlagen",
+    "description": "Fehlermeldung bei fehlgeschlagenem Export"
+  },
+  "export_exporting": {
+    "message": "Wird exportiert...",
+    "description": "Status während des Exports"
+  },
+  "export_startExport": {
+    "message": "Nach Anki exportieren",
+    "description": "Text der Export-Schaltfläche"
+  },
+  "export_helpText": {
+    "message": "Stellen Sie sicher, dass Anki läuft und das AnkiConnect-Add-on installiert ist.",
+    "description": "Hilfetext auf der Exportseite"
+  },
+  "export_refreshConnection": {
+    "message": "Verbindung aktualisieren",
+    "description": "Tooltip für Verbindung aktualisieren"
+  },
+  "export_deck": {
+    "message": "Stapel",
+    "description": "Beschriftung für Stapelauswahl"
+  },
+  "export_selectDeck": {
+    "message": "Stapel auswählen",
+    "description": "Platzhalter für Stapelauswahl-Dropdown"
+  },
+  "export_noteType": {
+    "message": "Notiztyp",
+    "description": "Beschriftung für Notiztyp-Auswahl"
+  },
+  "export_selectNoteType": {
+    "message": "Notiztyp auswählen",
+    "description": "Platzhalter für Notiztyp-Dropdown"
+  },
+  "export_fieldMapping": {
+    "message": "Feldzuordnung",
+    "description": "Beschriftung für Feldzuordnungsbereich"
+  },
+  "export_loadingFields": {
+    "message": "Felder werden geladen...",
+    "description": "Ladetext für Feldzuordnung"
+  },
+  "export_mediaOptions": {
+    "message": "Medienoptionen",
+    "description": "Beschriftung für Medienoptionen"
+  },
+  "export_includeAudio": {
+    "message": "Audio einschließen",
+    "description": "Checkbox-Beschriftung für Audio"
+  },
+  "export_includeImage": {
+    "message": "Screenshot einschließen",
+    "description": "Checkbox-Beschriftung für Bild"
+  },
+  "export_tags": {
+    "message": "Schlagwörter",
+    "description": "Beschriftung für Schlagwörter-Eingabe"
+  },
+  "export_tagsHint": {
+    "message": "Schlagwörter mit Kommas trennen",
+    "description": "Hinweistext für Schlagwörter-Eingabe"
+  },
+  "export_noDeckSelected": {
+    "message": "Bitte wählen Sie einen Stapel",
+    "description": "Fehlermeldung bei fehlender Stapelauswahl"
+  },
+  "export_noModelSelected": {
+    "message": "Bitte wählen Sie einen Notiztyp",
+    "description": "Fehlermeldung bei fehlender Notiztyp-Auswahl"
+  },
+  "export_createRecommendedTemplate": {
+    "message": "+ Moki Vocabulary Vorlage erstellen",
+    "description": "Schaltfläche zum Erstellen des empfohlenen Moki-Notiztyps"
+  },
+  "export_creatingTemplate": {
+    "message": "Vorlage wird erstellt...",
+    "description": "Status beim Erstellen der Vorlage"
+  },
+  "export_createTemplateFailed": {
+    "message": "Vorlage konnte nicht erstellt werden",
+    "description": "Fehlermeldung bei fehlgeschlagener Vorlagenerstellung"
+  },
+  "export_fetchingData": {
+    "message": "Daten werden abgerufen...",
+    "description": "Status beim Abrufen der Sammlungsdaten"
+  },
+  "export_exportingToAnki": {
+    "message": "Export nach Anki...",
+    "description": "Status beim Exportieren von Notizen nach Anki"
+  },
+  "export_allFailed": {
+    "message": "Alle Notizen konnten nicht exportiert werden",
+    "description": "Fehlermeldung wenn alle Notizen nicht exportiert werden konnten"
   }
 }
