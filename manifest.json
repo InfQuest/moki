@@ -1,7 +1,8 @@
 {
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtw/vwqMtRZw/UscjSXrQzBLZsxuo19/EzsQ6od6sQ7enT6zPhj2Q70QIZiYtAl2SBgyXBTqI/T/Ab2T205K/kKHZNF7dPm9cTm/A70QMAUsi63j+tJ3gmvQWP7pnQgi80wqRoCBkr3qJlbAGIkeq2trqs219miu9plt6gma7wDJeoKOfT+MrDi8Fzgh9eJXbTIxnN2sDaMSv/L/jlWiMvlxU+ihr8+JeOMwI1lqEx4XHzH1Wv3U3bmDOj8rXW6KA5q3hZkR8hsNxAfPKcdX41VJfzCqIdxzs0XlCDLtFLS44ilcC7/PqA2hE0tdZKZC8fPFi64z+iSAdUNL3sVMoaQIDAQAB",
   "name": "Moki: Learn Languages on YouTube",
   "description": "Make anything you watch a language lesson.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "manifest_version": 3,
   "default_locale": "en",
   "icons": {
@@ -18,7 +19,7 @@
   "content_scripts": [
     {
       "js": [
-        "assets/index.ts-loader-BIlXH8h4.js"
+        "assets/index.ts-loader-DNhQeFDF.js"
       ],
       "matches": [
         "https://www.youtube.com/*",
@@ -49,7 +50,7 @@
         "assets/chunk-CZmiAsfc.js",
         "assets/chunk-cFAJfbYw.js",
         "assets/chunk-Cpj98o6Y.js",
-        "assets/chunk-Cuko7doB.js"
+        "assets/chunk-Bjgy1xno.js"
       ],
       "use_dynamic_url": false
     }
