@@ -19,7 +19,7 @@
   "content_scripts": [
     {
       "js": [
-        "assets/index.ts-loader-DNhQeFDF.js"
+        "assets/index.ts-loader-CTS3hK0u.js"
       ],
       "matches": [
         "https://www.youtube.com/*",
@@ -47,10 +47,10 @@
         "assets/injected.js",
         "_locales/*/messages.json",
         "assets/chunk-DVDiAI92.js",
-        "assets/chunk-CZmiAsfc.js",
+        "assets/chunk-BHmWp2Sy.js",
         "assets/chunk-cFAJfbYw.js",
         "assets/chunk-Cpj98o6Y.js",
-        "assets/chunk-Bjgy1xno.js"
+        "assets/chunk-BgQDa6bu.js"
       ],
       "use_dynamic_url": false
     }
