@@ -18,7 +18,7 @@
   "content_scripts": [
     {
       "js": [
-        "assets/index.ts-loader-CvOdXFBa.js"
+        "assets/index.ts-loader-BZ0Anbs8.js"
       ],
       "matches": [
         "https://www.youtube.com/*",
@@ -46,10 +46,10 @@
         "assets/injected.js",
         "_locales/*/messages.json",
         "assets/chunk-DVDiAI92.js",
-        "assets/chunk-DjeP2p8N.js",
+        "assets/chunk-B_-4eIMs.js",
         "assets/chunk-cFAJfbYw.js",
         "assets/chunk-Cpj98o6Y.js",
-        "assets/chunk-OI1BH4oX.js"
+        "assets/chunk-D_z6xjTL.js"
       ],
       "use_dynamic_url": false
     }
